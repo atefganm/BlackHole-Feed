@@ -3058,195 +3058,195 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer-dbg
-Version: git49+265a527-r0
+Version: 1.xx+git49+265a527-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 2942a9b5ce8c895a8569c61c12c0c304
-SHA256sum: 9fccf2a8c54d4af8b61a1a016192eccede5a1084a66613db1833b88a62c92687
-Size: 726
-Filename: enigma2-plugin-extensions-e2piconizer-dbg_git49+265a527-r0_all.ipk
+MD5Sum: a450a9883f76b98f050f31a4a563e81d
+SHA256sum: 9d6195dd8abb861b573b5158add47c53e920fd4881c2f1e5072c82234e52c945
+Size: 730
+Filename: enigma2-plugin-extensions-e2piconizer-dbg_1.xx+git49+265a527-r1_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version gitAUTOINC+265a527c30-r0 - Debugging files
+Description: enigma2-plugin-extensions-e2piconizer version 1.xx+gitAUTOINC+265a527c30-r1 - Debugging files
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer-dev
-Version: git49+265a527-r0
-Recommends: enigma2-plugin-extensions-e2piconizer (= git49+265a527-r0)
+Version: 1.xx+git49+265a527-r1
+Recommends: enigma2-plugin-extensions-e2piconizer (= 1.xx+git49+265a527-r1)
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: ecba2856e57625aa3f6393a7c711f3e9
-SHA256sum: 79cf0e1f4cf7fc0f4e5e023fe8e9bffede302888302645dc9e421edef8d52c14
-Size: 762
-Filename: enigma2-plugin-extensions-e2piconizer-dev_git49+265a527-r0_all.ipk
+MD5Sum: 888b512bcc5db7092d9dc1b71fe7a598
+SHA256sum: 6462b842e0093a783ed7d2b24421fda17246f17fc8523a55c3ca1da208315c18
+Size: 768
+Filename: enigma2-plugin-extensions-e2piconizer-dev_1.xx+git49+265a527-r1_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version gitAUTOINC+265a527c30-r0 - Development files
+Description: enigma2-plugin-extensions-e2piconizer version 1.xx+gitAUTOINC+265a527c30-r1 - Development files
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer-src
-Version: git49+265a527-r0
+Version: 1.xx+git49+265a527-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 6436352b6a7affdf195a874349cd6ce2
-SHA256sum: 0163d67e6c2c2c8605283f221520a4b970c35306eb302a98ed39e036af64dba6
-Size: 13060
-Filename: enigma2-plugin-extensions-e2piconizer-src_git49+265a527-r0_all.ipk
+MD5Sum: e51c05b163848d6d1d15e40f1e759e0a
+SHA256sum: f5fac3b79646c6785b5d14baa61e2233e28cf4a64e9306b7328c0291a63146c6
+Size: 13064
+Filename: enigma2-plugin-extensions-e2piconizer-src_1.xx+git49+265a527-r1_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version gitAUTOINC+265a527c30-r0 - Source files
+Description: enigma2-plugin-extensions-e2piconizer version 1.xx+gitAUTOINC+265a527c30-r1 - Source files
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer
-Version: git49+265a527-r0
+Version: 1.xx+git49+265a527-r1
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 12f659cc52d0d9c703d27eebc8422a31
-SHA256sum: e9565775b59c3bd5d469acaa4c4af57a4ed8537920ff5cce1e3e7e760cdb5b1f
-Size: 1389632
-Filename: enigma2-plugin-extensions-e2piconizer_git49+265a527-r0_all.ipk
+MD5Sum: d2010c3e3f9be48a2b27a5970923c935
+SHA256sum: ea942467a7db9e06365d70a7442edc8e232dcafdfd7666f3e957ceeacca089ef
+Size: 1389684
+Filename: enigma2-plugin-extensions-e2piconizer_1.xx+git49+265a527-r1_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version gitAUTOINC+265a527c30-r0
+Description: enigma2-plugin-extensions-e2piconizer version 1.xx+gitAUTOINC+265a527c30-r1
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream-dbg
-Version: git12+3b62fb6-r0
+Version: 1.xx+git12+3b62fb6-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 1068e30dabf296d26360ec9de5432a7d
-SHA256sum: 51afceabfaca65ad1ec55a5c9d53cbf7d214042b7c490db4aff15dc10793458b
-Size: 710
-Filename: enigma2-plugin-extensions-jediepgxtream-dbg_git12+3b62fb6-r0_all.ipk
+MD5Sum: b15e2aed225b8f1928cfaa3effcdb17e
+SHA256sum: 01d95535b1710565e25f15446d55f6a660ae91ede1943adc5ac864f2de4a6d7d
+Size: 716
+Filename: enigma2-plugin-extensions-jediepgxtream-dbg_1.xx+git12+3b62fb6-r1_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version gitAUTOINC+3b62fb6126-r0 - Debugging files
+Description: enigma2-plugin-extensions-jediepgxtream version 1.xx+gitAUTOINC+3b62fb6126-r1 - Debugging files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream-dev
-Version: git12+3b62fb6-r0
-Recommends: enigma2-plugin-extensions-jediepgxtream (= git12+3b62fb6-r0), python3-backports-lzma-dev
+Version: 1.xx+git12+3b62fb6-r1
+Recommends: enigma2-plugin-extensions-jediepgxtream (= 1.xx+git12+3b62fb6-r1), python3-backports-lzma-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 927d867d634b036ba943547c6225ac40
-SHA256sum: 5fb7aa8dfd862a254f3a3b81d8e98f215b2f17e431a4abecccaf2bb17168c626
-Size: 766
-Filename: enigma2-plugin-extensions-jediepgxtream-dev_git12+3b62fb6-r0_all.ipk
+MD5Sum: daa9dd57b98357be3766470e4b95a310
+SHA256sum: 4451955a250b2bfc5971697be0014758cd923085610cbb17b93d5eae37d97580
+Size: 772
+Filename: enigma2-plugin-extensions-jediepgxtream-dev_1.xx+git12+3b62fb6-r1_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version gitAUTOINC+3b62fb6126-r0 - Development files
+Description: enigma2-plugin-extensions-jediepgxtream version 1.xx+gitAUTOINC+3b62fb6126-r1 - Development files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream-src
-Version: git12+3b62fb6-r0
+Version: 1.xx+git12+3b62fb6-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 1bf7ad874926a9845194e2cc1e1f7eb0
-SHA256sum: 24c028de146a20ad69b1416f0cdf25fdacae94c396626b395e5a7d9e8e900de0
-Size: 8710
-Filename: enigma2-plugin-extensions-jediepgxtream-src_git12+3b62fb6-r0_all.ipk
+MD5Sum: ea47b3ddc8a76cdbbae068f3341ea909
+SHA256sum: c01e51744680e0ed450c6010f3b2e942c396bc086a0e76f23743368af1027e34
+Size: 8716
+Filename: enigma2-plugin-extensions-jediepgxtream-src_1.xx+git12+3b62fb6-r1_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version gitAUTOINC+3b62fb6126-r0 - Source files
+Description: enigma2-plugin-extensions-jediepgxtream version 1.xx+gitAUTOINC+3b62fb6126-r1 - Source files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream
-Version: git12+3b62fb6-r0
+Version: 1.xx+git12+3b62fb6-r1
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5e884e6679875a40f6db989c91698a4c
-SHA256sum: 75401be597db6cb5c5a46b955c39802801a080d7f0e4092ef3d87f9f4562b4b5
-Size: 271146
-Filename: enigma2-plugin-extensions-jediepgxtream_git12+3b62fb6-r0_all.ipk
+MD5Sum: f0a0badcc46d9e343074e802c1e10145
+SHA256sum: 59350a1e839ee0972314838be970c70910e0299d9d1d7d4259e6ab5b8347e888
+Size: 271084
+Filename: enigma2-plugin-extensions-jediepgxtream_1.xx+git12+3b62fb6-r1_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version gitAUTOINC+3b62fb6126-r0
+Description: enigma2-plugin-extensions-jediepgxtream version 1.xx+gitAUTOINC+3b62fb6126-r1
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream-dbg
-Version: git131+fad6d82-r0
+Version: 1.xx+git133+ce2107c-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: fb7a7158109c3c13ed1d46376897cdb9
-SHA256sum: 42c8464eddadcf57888b9d715b92f47b3470db526d892cfa3b3f9cf9ea548fb8
-Size: 742
-Filename: enigma2-plugin-extensions-jedimakerxtream-dbg_git131+fad6d82-r0_all.ipk
+MD5Sum: 493796f7333c38cebbb514a32ff2a8d9
+SHA256sum: 66e702b05a7572c70d59eb985dcb5cd788a8be0a6065ba64facf73cf47c49c82
+Size: 746
+Filename: enigma2-plugin-extensions-jedimakerxtream-dbg_1.xx+git133+ce2107c-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+fad6d82749-r0 - Debugging files
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1 - Debugging files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream-dev
-Version: git131+fad6d82-r0
-Recommends: enigma2-plugin-extensions-jedimakerxtream (= git131+fad6d82-r0), python3-backports-lzma-dev
+Version: 1.xx+git133+ce2107c-r1
+Recommends: enigma2-plugin-extensions-jedimakerxtream (= 1.xx+git133+ce2107c-r1), python3-backports-lzma-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e7656bc56608cda9b30f8b31acc8a2bd
-SHA256sum: fcf5af31c6cef528b6115f4010efc86a7aee5bc7026eb6c8615be27cf7b017c2
-Size: 800
-Filename: enigma2-plugin-extensions-jedimakerxtream-dev_git131+fad6d82-r0_all.ipk
+MD5Sum: 7f910f3377468c288647c747af90d869
+SHA256sum: cc5031bd0a380b51e60535d3fc5231c4ce7161c65b3dd10c23c9d5eec3b92cf0
+Size: 806
+Filename: enigma2-plugin-extensions-jedimakerxtream-dev_1.xx+git133+ce2107c-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+fad6d82749-r0 - Development files
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1 - Development files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream-src
-Version: git131+fad6d82-r0
+Version: 1.xx+git133+ce2107c-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: cb3be19f15e9f6698aee2b303ec26109
-SHA256sum: 930d677550b0009da6ff431b26565b713a023f82f2a4ab026a5f4e823f69d008
-Size: 30382
-Filename: enigma2-plugin-extensions-jedimakerxtream-src_git131+fad6d82-r0_all.ipk
+MD5Sum: 092496ce71ececf438bd50ad30e46638
+SHA256sum: a5fd9b1a14809c5a36a605982e82e77cecd5b4583c49acb1b6fac5f7b50311ac
+Size: 30406
+Filename: enigma2-plugin-extensions-jedimakerxtream-src_1.xx+git133+ce2107c-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+fad6d82749-r0 - Source files
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1 - Source files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream
-Version: git131+fad6d82-r0
+Version: 1.xx+git133+ce2107c-r1
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 14443ca67396785973e0afa8569e9239
-SHA256sum: 3158184aa7f0ed7befbec2c4099ee27edd1cd09bbfa82b29e1e0f1836aa2f43d
-Size: 1618564
-Filename: enigma2-plugin-extensions-jedimakerxtream_git131+fad6d82-r0_all.ipk
+MD5Sum: 9178dcd64f17942281f32632a2f080ff
+SHA256sum: b5e926e4c9925bd2b62e7d22b4640369c20a367ff28b600837ad9517182d9c74
+Size: 1620368
+Filename: enigma2-plugin-extensions-jedimakerxtream_1.xx+git133+ce2107c-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version gitAUTOINC+fad6d82749-r0
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
@@ -3380,14 +3380,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: git338+07d4761-r0
+Version: 1.xx+git339+8f6bd57-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 1b774ae46498857e22e3fda76198da40
-SHA256sum: 8a2a1aab19b6023eed33e2641c502fc3af0ab4907978130726c5c5f2a8231b93
-Size: 716
-Filename: enigma2-plugin-extensions-xstreamity-dbg_git338+07d4761-r0_all.ipk
+MD5Sum: 78c0d35a0a521028cf3b01ba9932e966
+SHA256sum: 8f0c8299acc54c39c14022ea3593b583ceebe81fd21373b1760fbe68fadbd5c3
+Size: 720
+Filename: enigma2-plugin-extensions-xstreamity-dbg_1.xx+git339+8f6bd57-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3396,15 +3396,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: git338+07d4761-r0
-Recommends: enigma2-plugin-extensions-xstreamity (= git338+07d4761-r0), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.xx+git339+8f6bd57-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 1.xx+git339+8f6bd57-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 46e0cd9d7bb6ccd6594661acd8342906
-SHA256sum: 4c4d2e7365deadc8959173ee34adcaaffd18eab2ebd50328ab64e82580fc3e13
-Size: 786
-Filename: enigma2-plugin-extensions-xstreamity-dev_git338+07d4761-r0_all.ipk
+MD5Sum: 11547be0a4dd015b356ff07dacc32588
+SHA256sum: 4299467ccd3371ab76a46be7904ef5c64cd5e0deff3a47dbb167b8bff2b2adcd
+Size: 790
+Filename: enigma2-plugin-extensions-xstreamity-dev_1.xx+git339+8f6bd57-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3413,14 +3413,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: git338+07d4761-r0
+Version: 1.xx+git339+8f6bd57-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 738e187ffb631288ba0e359a616d909f
-SHA256sum: 6a57a32d3999df037b893445aad736259fd8c778ea29ba75732f7e6a51098721
-Size: 55468
-Filename: enigma2-plugin-extensions-xstreamity-src_git338+07d4761-r0_all.ipk
+MD5Sum: 458e047b7a6e8d27454cf685cbf2b866
+SHA256sum: 703d9919f27103808d935836bcb5ef0a29a2c96a3cd767b63f478801e6e7104a
+Size: 55554
+Filename: enigma2-plugin-extensions-xstreamity-src_1.xx+git339+8f6bd57-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3429,15 +3429,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: git338+07d4761-r0
+Version: 1.xx+git339+8f6bd57-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: ee934cc329a08bb43b53579cb9ca4bd1
-SHA256sum: 6a6543f9522f3c595de589c8fbafbd58727615c40a6dba7c4444985d1ace0f95
-Size: 2209676
-Filename: enigma2-plugin-extensions-xstreamity_git338+07d4761-r0_all.ipk
+MD5Sum: 95bbf30d4a2fd4119487a37da1aea532
+SHA256sum: 3477917380e51ad254bd096cf1f6009ae4a92aedd4635f4f1783459723a24cd2
+Size: 2210292
+Filename: enigma2-plugin-extensions-xstreamity_1.xx+git339+8f6bd57-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -3646,15 +3646,61 @@ OE: enigma2-plugin-skins-kravenhd
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-skins-mxslimlinenp-dbg
-Version: 3.0+git417+bd9986c-r1
+Package: enigma2-plugin-skins-mxhq9w-dbg
+Version: 3.0+git418+fe4ebb3-r1
 Section: devel
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: f6ca7375c07ec497281be28c72b1ce0a
-SHA256sum: b8e1968a8c1e7191e4175506fccf84359d926753d4b323426ec3ea006e8ff44b
+MD5Sum: 4c7d3a5498ffbb61cf698b8832daa1dd
+SHA256sum: 56fbddf74dc0083868b22ce4bd1883579326ffaad12eae70785d519f69afa3fe
+Size: 674
+Filename: enigma2-plugin-skins-mxhq9w-dbg_3.0+git418+fe4ebb3-r1_all.ipk
+Source: enigma2-plugin-skins-mxhq9w.bb
+Description: Enigma2 Skin MX_HQ9W - Debugging files
+OE: enigma2-plugin-skins-mxhq9w
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxhq9w-dev
+Version: 3.0+git418+fe4ebb3-r1
+Recommends: enigma2-plugin-skins-mxhq9w (= 3.0+git418+fe4ebb3-r1)
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 920d5983b6fb051f90fc95c9cc9068aa
+SHA256sum: de7aeb63eb0a4a20de32af648792d7a8f3649249bbe09331f396966ac1b67e4b
+Size: 710
+Filename: enigma2-plugin-skins-mxhq9w-dev_3.0+git418+fe4ebb3-r1_all.ipk
+Source: enigma2-plugin-skins-mxhq9w.bb
+Description: Enigma2 Skin MX_HQ9W - Development files
+OE: enigma2-plugin-skins-mxhq9w
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxhq9w
+Version: 3.0+git418+fe4ebb3-r1
+Section: base
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 097e16352779fe5b762aafb0bd09986d
+SHA256sum: f2df154c41cc6f118fd477646fe1fc1027a226086425bd386cf1fea38ed700d8
+Size: 1400116
+Filename: enigma2-plugin-skins-mxhq9w_3.0+git418+fe4ebb3-r1_all.ipk
+Source: enigma2-plugin-skins-mxhq9w.bb
+Description: Enigma2 Skin MX_HQ9W
+OE: enigma2-plugin-skins-mxhq9w
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxslimlinenp-dbg
+Version: 3.0+git418+fe4ebb3-r1
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 6deaf83dd8f01793527e4c1f65012206
+SHA256sum: 178da92f2c1a04905f71505330d12495cc370ff02025995abf175905884b44f7
 Size: 682
-Filename: enigma2-plugin-skins-mxslimlinenp-dbg_3.0+git417+bd9986c-r1_all.ipk
+Filename: enigma2-plugin-skins-mxslimlinenp-dbg_3.0+git418+fe4ebb3-r1_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP - Debugging files
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -3662,15 +3708,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-skins-mxslimlinenp-dev
-Version: 3.0+git417+bd9986c-r1
-Recommends: enigma2-plugin-skins-mxslimlinenp (= 3.0+git417+bd9986c-r1)
+Version: 3.0+git418+fe4ebb3-r1
+Recommends: enigma2-plugin-skins-mxslimlinenp (= 3.0+git418+fe4ebb3-r1)
 Section: devel
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: f4c536bc18328295ff47dd36834e1a21
-SHA256sum: 2f0c910f855e680722da083811f8e853cb8330158ac3132e2e80e04216168622
-Size: 720
-Filename: enigma2-plugin-skins-mxslimlinenp-dev_3.0+git417+bd9986c-r1_all.ipk
+MD5Sum: dfb405b330440790140d019523929454
+SHA256sum: 6d45cbdca48b2bebfb99884b809d3685f7894931d1e9711c098f4c17e32fda15
+Size: 718
+Filename: enigma2-plugin-skins-mxslimlinenp-dev_3.0+git418+fe4ebb3-r1_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP - Development files
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -3678,17 +3724,63 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-skins-mxslimlinenp
-Version: 3.0+git417+bd9986c-r1
+Version: 3.0+git418+fe4ebb3-r1
 Section: base
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: b676c4b2e3f80600f5581dde8b982cdf
-SHA256sum: 1eb33c97ab78066bbe8347f00b9f32051c773453e02212714689f3e45ccaec7a
-Size: 1940418
-Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git417+bd9986c-r1_all.ipk
+MD5Sum: 354c4acb4641c7031afd5a32f026841f
+SHA256sum: 21da8fdf87fb4c34feae5209a6f26797cb4b20f80b15c27dd75e9deb4f8b79fe
+Size: 1940312
+Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git418+fe4ebb3-r1_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP
 OE: enigma2-plugin-skins-mxslimlinenp
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxtitaniumc-dbg
+Version: 3.0+git418+fe4ebb3-r3
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 251ab7a073d5150ce1bdad76c211407d
+SHA256sum: 5199c73cadb8ab1107c0c95b9a5bcb41446c6fd5363026ec318d03cd7bc06cd4
+Size: 678
+Filename: enigma2-plugin-skins-mxtitaniumc-dbg_3.0+git418+fe4ebb3-r3_all.ipk
+Source: enigma2-plugin-skins-mxtitaniumc.bb
+Description: Enigma2 Skin MX_Titanium_C - Debugging files
+OE: enigma2-plugin-skins-mxtitaniumc
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxtitaniumc-dev
+Version: 3.0+git418+fe4ebb3-r3
+Recommends: enigma2-plugin-skins-mxtitaniumc (= 3.0+git418+fe4ebb3-r3)
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 064d8a4c604584db275111ed97bbdf39
+SHA256sum: fe4d2ec5e400deed9d52042849081907a6630d6e45890b364c5c38f26ec22da8
+Size: 714
+Filename: enigma2-plugin-skins-mxtitaniumc-dev_3.0+git418+fe4ebb3-r3_all.ipk
+Source: enigma2-plugin-skins-mxtitaniumc.bb
+Description: Enigma2 Skin MX_Titanium_C - Development files
+OE: enigma2-plugin-skins-mxtitaniumc
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxtitaniumc
+Version: 3.0+git418+fe4ebb3-r3
+Section: base
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 6e1f652f75f2e7926bd91ae3c7fc01b7
+SHA256sum: 0e59e6b9b32048908066ecbb9084cd98d034162980175f5376d211b11ba73912
+Size: 1817298
+Filename: enigma2-plugin-skins-mxtitaniumc_3.0+git418+fe4ebb3-r3_all.ipk
+Source: enigma2-plugin-skins-mxtitaniumc.bb
+Description: Enigma2 Skin MX_Titanium_C
+OE: enigma2-plugin-skins-mxtitaniumc
 License: GPL-2.0-or-later
 Priority: required
 
@@ -5220,13 +5312,13 @@ Version: 5.2-r23
 Depends: enigma-info, enigma2-skindefault, openbh-core
 Replaces: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
 Conflicts: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
-Recommends: enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-socketmmi, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-terrestrialscan, enigma2-plugin-systemplugins-videoenhancement, openbh-picon-feed-opkg-conf
+Recommends: enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-e2iplayer, enigma2-plugin-extensions-e2iplayer-deps, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-socketmmi, enigma2-plugin-softcams-ncam, enigma2-plugin-softcams-oscam-emu, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-serviceapp, enigma2-plugin-systemplugins-terrestrialscan, enigma2-plugin-systemplugins-videoenhancement, eplayer5, exteplayer3, openbh-picon-feed-opkg-conf
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: f9adc0f042a48095765c1285758df9db
-SHA256sum: 29f795b4e7e8744d5295fb67c2325472f6b3abe32eec4a16271a44a3a95dbc5f
-Size: 772
+MD5Sum: 67820c3800c581385a7ec31f6fcca573
+SHA256sum: f3f4188eb278f70ff860947ca984dbc8ad18e67e86cbe13e4f0d325c9a234fb6
+Size: 818
 Filename: openbh-enigma2_5.2-r23_all.ipk
 Source: openbh-enigma2.bb
 Description: OpenBh Enigma2
@@ -5552,14 +5644,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 1.0+git816+ef2f8bf-r0
+Version: 1.0+git817+4d3296c-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 10795fa51c7598829ca509c055b1a3c1
-SHA256sum: edfe12c9ee2fd138a46bb56d62212936ac33c6db82c9702bef73b6bc8f3bffff
+MD5Sum: 0ed941dd44aaca8ec5bb723fc462719f
+SHA256sum: ac7b2c920a705a7e76571a777deed9a0e457e2038b231edcc1249b14e99e7fc3
 Size: 656
-Filename: tuxbox-common-dbg_1.0+git816+ef2f8bf-r0_all.ipk
+Filename: tuxbox-common-dbg_1.0+git817+4d3296c-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Debugging files
 OE: tuxbox-common
@@ -5567,15 +5659,15 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 1.0+git816+ef2f8bf-r0
-Recommends: tuxbox-common (= 1.0+git816+ef2f8bf-r0)
+Version: 1.0+git817+4d3296c-r0
+Recommends: tuxbox-common (= 1.0+git817+4d3296c-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 5a9aa0a0cac997cb1784b1a3c10763f3
-SHA256sum: 5525278905d7ed104256e3671758770174e70473d2dee62565cd5117ca564500
-Size: 690
-Filename: tuxbox-common-dev_1.0+git816+ef2f8bf-r0_all.ipk
+MD5Sum: 89b44807db75be1460806b85a4407c8f
+SHA256sum: 7b3e9dbdb888b028e83e4d3af66313e5f7a33091e92c21671f5462c6fa0c4d43
+Size: 692
+Filename: tuxbox-common-dev_1.0+git817+4d3296c-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Development files
 OE: tuxbox-common
@@ -5583,14 +5675,14 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common
-Version: 1.0+git816+ef2f8bf-r0
+Version: 1.0+git817+4d3296c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 94d90ba06ce3541e862aad070c2e39ef
-SHA256sum: a7371372de75c65bde23f686abab2ce3aa3ea332b8cf6645d4bcd0269c7012a0
-Size: 57932
-Filename: tuxbox-common_1.0+git816+ef2f8bf-r0_all.ipk
+MD5Sum: a1782ade42ca915572180ef76ddc7c25
+SHA256sum: 5ce3b3acd934a5f0bc70cf20e39e75495a8e1dff153f752c3a6d617fd196fc98
+Size: 57840
+Filename: tuxbox-common_1.0+git817+4d3296c-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files
 OE: tuxbox-common
