@@ -3188,65 +3188,65 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream-dbg
-Version: 1.xx+git133+ce2107c-r1
+Version: 1.xx+git142+06e206a-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 493796f7333c38cebbb514a32ff2a8d9
-SHA256sum: 66e702b05a7572c70d59eb985dcb5cd788a8be0a6065ba64facf73cf47c49c82
+MD5Sum: 692807462969ce00666ebd6524363926
+SHA256sum: dcdad39e4a6277822c4f96d9de3617dae0dfee31efcb756e2d6c5667e2d3a0b5
 Size: 746
-Filename: enigma2-plugin-extensions-jedimakerxtream-dbg_1.xx+git133+ce2107c-r1_all.ipk
+Filename: enigma2-plugin-extensions-jedimakerxtream-dbg_1.xx+git142+06e206a-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1 - Debugging files
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+06e206aa5a-r1 - Debugging files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream-dev
-Version: 1.xx+git133+ce2107c-r1
-Recommends: enigma2-plugin-extensions-jedimakerxtream (= 1.xx+git133+ce2107c-r1), python3-backports-lzma-dev
+Version: 1.xx+git142+06e206a-r1
+Recommends: enigma2-plugin-extensions-jedimakerxtream (= 1.xx+git142+06e206a-r1), python3-backports-lzma-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 7f910f3377468c288647c747af90d869
-SHA256sum: cc5031bd0a380b51e60535d3fc5231c4ce7161c65b3dd10c23c9d5eec3b92cf0
-Size: 806
-Filename: enigma2-plugin-extensions-jedimakerxtream-dev_1.xx+git133+ce2107c-r1_all.ipk
+MD5Sum: 4efb2c1f079c1132d73d8be9c372f0f5
+SHA256sum: 5c8727c46e645ad76ce648d0a20155bcb70f6ffaf814962c343fb61fe1c19a51
+Size: 802
+Filename: enigma2-plugin-extensions-jedimakerxtream-dev_1.xx+git142+06e206a-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1 - Development files
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+06e206aa5a-r1 - Development files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream-src
-Version: 1.xx+git133+ce2107c-r1
+Version: 1.xx+git142+06e206a-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 092496ce71ececf438bd50ad30e46638
-SHA256sum: a5fd9b1a14809c5a36a605982e82e77cecd5b4583c49acb1b6fac5f7b50311ac
-Size: 30406
-Filename: enigma2-plugin-extensions-jedimakerxtream-src_1.xx+git133+ce2107c-r1_all.ipk
+MD5Sum: 080edde65c5cbf8660e1a8ede7207b04
+SHA256sum: 7a3c9ba5783de4cf65c06d864b234f5a650ca58175939ad1fda98c581c9b6784
+Size: 30022
+Filename: enigma2-plugin-extensions-jedimakerxtream-src_1.xx+git142+06e206a-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1 - Source files
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+06e206aa5a-r1 - Source files
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream
-Version: 1.xx+git133+ce2107c-r1
+Version: 1.xx+git142+06e206a-r1
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9178dcd64f17942281f32632a2f080ff
-SHA256sum: b5e926e4c9925bd2b62e7d22b4640369c20a367ff28b600837ad9517182d9c74
-Size: 1620368
-Filename: enigma2-plugin-extensions-jedimakerxtream_1.xx+git133+ce2107c-r1_all.ipk
+MD5Sum: d0476f6c7c00cfb411674c5c79e4a33a
+SHA256sum: d669b21be38f5cc12491ed429cce757aa38540ea3076344da691ecfe649c0b9f
+Size: 1708144
+Filename: enigma2-plugin-extensions-jedimakerxtream_1.xx+git142+06e206a-r1_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
-Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+ce2107c4bd-r1
+Description: enigma2-plugin-extensions-jedimakerxtream version 1.xx+gitAUTOINC+06e206aa5a-r1
 OE: enigma2-plugin-extensions-jedimakerxtream
 HomePage: https://github.com/kiddac/Jedi_Maker_Xtream
 License: GPL-2.0-or-later
@@ -3580,6 +3580,52 @@ Description: Modification is based on open-source skin from Army. It is adapted 
 OE: enigma2-plugin-skins-army-moodblue-hd
 License: GPL-2.0-or-later
 Priority: optional
+
+Package: enigma2-plugin-skins-blackshadowsep-dbg
+Version: 3.0+git418+fe4ebb3-r3
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 0e29ecd608bd4dcf66c6c0cfb5100e55
+SHA256sum: 49ae674fd15c7be811cf7e58bfcd29c9989118f1e58dce51dbfb994750885f20
+Size: 680
+Filename: enigma2-plugin-skins-blackshadowsep-dbg_3.0+git418+fe4ebb3-r3_all.ipk
+Source: enigma2-plugin-skins-blackshadowsep.bb
+Description: Enigma2 Skin BlackShadowSE_P - Debugging files
+OE: enigma2-plugin-skins-blackshadowsep
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-blackshadowsep-dev
+Version: 3.0+git418+fe4ebb3-r3
+Recommends: enigma2-plugin-skins-blackshadowsep (= 3.0+git418+fe4ebb3-r3)
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 12342e4d90b8a6259a8df75ead787a3c
+SHA256sum: f6afa66384d94ef52286864764612983fbb7f2a4a817a84314713d7fbcc4d1a0
+Size: 716
+Filename: enigma2-plugin-skins-blackshadowsep-dev_3.0+git418+fe4ebb3-r3_all.ipk
+Source: enigma2-plugin-skins-blackshadowsep.bb
+Description: Enigma2 Skin BlackShadowSE_P - Development files
+OE: enigma2-plugin-skins-blackshadowsep
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-blackshadowsep
+Version: 3.0+git418+fe4ebb3-r3
+Section: base
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 54c4ac81d841e99f29478712df7ce1ff
+SHA256sum: ae9fbc777c021ee29db773736039f193af3ed9bef450f6cc9a5444c563fc08fd
+Size: 1581926
+Filename: enigma2-plugin-skins-blackshadowsep_3.0+git418+fe4ebb3-r3_all.ipk
+Source: enigma2-plugin-skins-blackshadowsep.bb
+Description: Enigma2 Skin BlackShadowSE_P
+OE: enigma2-plugin-skins-blackshadowsep
+License: GPL-2.0-or-later
+Priority: required
 
 Package: enigma2-plugin-skins-kravenhd-dbg
 Version: 7.8.x+git162+7b8bb76-r0
@@ -5644,14 +5690,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 1.0+git817+4d3296c-r0
+Version: 1.0+git818+e61287f-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 0ed941dd44aaca8ec5bb723fc462719f
-SHA256sum: ac7b2c920a705a7e76571a777deed9a0e457e2038b231edcc1249b14e99e7fc3
-Size: 656
-Filename: tuxbox-common-dbg_1.0+git817+4d3296c-r0_all.ipk
+MD5Sum: d19a5df7283cb8c8725bafeb8172f4c2
+SHA256sum: 640d7f89b0fab49db421ff032588c66027f1b4d7c0265f2e27d0b918a6d3a2b4
+Size: 654
+Filename: tuxbox-common-dbg_1.0+git818+e61287f-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Debugging files
 OE: tuxbox-common
@@ -5659,15 +5705,15 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 1.0+git817+4d3296c-r0
-Recommends: tuxbox-common (= 1.0+git817+4d3296c-r0)
+Version: 1.0+git818+e61287f-r0
+Recommends: tuxbox-common (= 1.0+git818+e61287f-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 89b44807db75be1460806b85a4407c8f
-SHA256sum: 7b3e9dbdb888b028e83e4d3af66313e5f7a33091e92c21671f5462c6fa0c4d43
+MD5Sum: 2268f7b7b25ab9d3e3b2e95f877d11d5
+SHA256sum: 8f5a50c260ebd376025d466c1e2a1cdb34db7f4b0d7396bfbf263c64352d0c9a
 Size: 692
-Filename: tuxbox-common-dev_1.0+git817+4d3296c-r0_all.ipk
+Filename: tuxbox-common-dev_1.0+git818+e61287f-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Development files
 OE: tuxbox-common
@@ -5675,14 +5721,14 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common
-Version: 1.0+git817+4d3296c-r0
+Version: 1.0+git818+e61287f-r0
 Section: base
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: a1782ade42ca915572180ef76ddc7c25
-SHA256sum: 5ce3b3acd934a5f0bc70cf20e39e75495a8e1dff153f752c3a6d617fd196fc98
-Size: 57840
-Filename: tuxbox-common_1.0+git817+4d3296c-r0_all.ipk
+MD5Sum: 1485c27ecb3e709b352cceb9ea6c33b3
+SHA256sum: a1d51ff8d18319b77ad0fedbbebeb81ca950b546703022e488749ff64e056d6c
+Size: 57900
+Filename: tuxbox-common_1.0+git818+e61287f-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files
 OE: tuxbox-common
