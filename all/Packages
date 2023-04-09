@@ -3380,14 +3380,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 1.xx+git347+add42f3-r1
+Version: 1.xx+git348+a8c78b3-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a14faa0cf163e852fc147689c678aaac
-SHA256sum: 2475a4e2fe85177ad263d194da78f7060f073aefb9ce6735eb11868c6a7ea4d6
+MD5Sum: 687796370b7da4a1dc1474f677fc93f9
+SHA256sum: aa871b813b3774b992b93bc88a899a6b48c57d51538e086a1278c26fea782796
 Size: 718
-Filename: enigma2-plugin-extensions-xstreamity-dbg_1.xx+git347+add42f3-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dbg_1.xx+git348+a8c78b3-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3396,15 +3396,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 1.xx+git347+add42f3-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 1.xx+git347+add42f3-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.xx+git348+a8c78b3-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 1.xx+git348+a8c78b3-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 48c24e74121f5a2499b04e32f73d7078
-SHA256sum: 56c82990af8bf18c7bd6ef403da5578c83dff1fa8a3e67eaaedcc4321d3444ba
-Size: 788
-Filename: enigma2-plugin-extensions-xstreamity-dev_1.xx+git347+add42f3-r1_all.ipk
+MD5Sum: aafd55290d66d15db618259938fa4bb2
+SHA256sum: fa5649e94e52df99295ee02297cc49988c892beb8f3792f0f78478d61370d32e
+Size: 790
+Filename: enigma2-plugin-extensions-xstreamity-dev_1.xx+git348+a8c78b3-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3413,14 +3413,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 1.xx+git347+add42f3-r1
+Version: 1.xx+git348+a8c78b3-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 1eb107ab18e34b5838b016e11f5c04e3
-SHA256sum: 7e5918f2d50305db220150f09b7e98a9ec4e4d719e4c15f6e869f596c0d825fd
-Size: 55784
-Filename: enigma2-plugin-extensions-xstreamity-src_1.xx+git347+add42f3-r1_all.ipk
+MD5Sum: 462a4c9167c770834c83e913db97afea
+SHA256sum: 4bb14ef521a3065db1b0bd74de9d66afd968897b6cb53237a3f7740a3c55e34a
+Size: 55772
+Filename: enigma2-plugin-extensions-xstreamity-src_1.xx+git348+a8c78b3-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3429,15 +3429,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 1.xx+git347+add42f3-r1
+Version: 1.xx+git348+a8c78b3-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d161a1076b94416722f25df8a1996882
-SHA256sum: b51fe37aa752825b5015bfc96a375c059b584a7e55c1125cbed78f39831f401d
-Size: 2838696
-Filename: enigma2-plugin-extensions-xstreamity_1.xx+git347+add42f3-r1_all.ipk
+MD5Sum: 323266289a799505299337c780898c16
+SHA256sum: 46c4bb3bfac1a94c597d1d29b52b4120a79bbb759dbd2ee82cbf0dc8ca481852
+Size: 2848840
+Filename: enigma2-plugin-extensions-xstreamity_1.xx+git348+a8c78b3-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -3586,8 +3586,8 @@ Version: 7.9.12+git165+1508f1f-r0
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: ff05b146513fb64e0ab4d1a2cee57101
-SHA256sum: 79315cb7269c3dc7a94f9140180949ad6eb6d6279145e6aee73f527703ff549a
+MD5Sum: 1531d7a0274e511d33f893ea38d64fa3
+SHA256sum: 362fe4a1fee65b789655cf9fcf88a8b3a00258d4a595bfe86fda314eeb242905
 Size: 676
 Filename: enigma2-plugin-skins-kravenhd-dbg_7.9.12+git165+1508f1f-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
@@ -3602,8 +3602,8 @@ Recommends: enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-skins-kraven
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 6f4658ec93dd544d487c5f7a1c48fd34
-SHA256sum: 3fce0f35de9d4c16dd2c726209a3e7766d98a8f5cbd008975c3978f217908577
+MD5Sum: 14c8fdf149e2cc3a81a85ff188fa5fa8
+SHA256sum: f84f198988af1e7d5718f03e1c9ef9405b84ea7ef4bdff98f3378fe95a1066db
 Size: 770
 Filename: enigma2-plugin-skins-kravenhd-dev_7.9.12+git165+1508f1f-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
@@ -3617,9 +3617,9 @@ Version: 7.9.12+git165+1508f1f-r0
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 526a9e64bcb9b45bf5263e8dd58fbb08
-SHA256sum: a5cc590ea9d55dd5383f7c3067ce9f707203ff3b495ad9aa73b2a74e93eb3a7f
-Size: 70716
+MD5Sum: 1042eb749711992cbc61a889d3ea1d54
+SHA256sum: e517e8e5f54a080d76030583fe8bcfbc44f3bf616380886f307e57f75ea2650d
+Size: 70748
 Filename: enigma2-plugin-skins-kravenhd-src_7.9.12+git165+1508f1f-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven - Source files
@@ -3636,9 +3636,9 @@ Conflicts: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
 Section: base
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 06f20d9b86ff2d321789ebe1257067a0
-SHA256sum: 98caeb911c3f1a65b136bd02364aca5e90991df258a06dfce0c64f5c75970d75
-Size: 4018984
+MD5Sum: e8f86aa42f9254c67617b091d5604502
+SHA256sum: 55a54d8353e94efb132a51f4468186d235830c0d48e52038b8d819d51364fa8d
+Size: 4020078
 Filename: enigma2-plugin-skins-kravenhd_7.9.12+git165+1508f1f-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven
@@ -3647,14 +3647,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-mxslimlinenp-dbg
-Version: 3.0+git437+fef0482-r1
+Version: 3.0+git439+29e6c85-r1
 Section: devel
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: cbf643f7f0387eed78d31215e81f281e
-SHA256sum: 6d7276fe4be61c242dbd5b7754b94f1b0a2c017227e417fe30efb83944a2e4fc
+MD5Sum: c623f2c3ddf7d826b9d9b19ab6ad9844
+SHA256sum: 46890865bae60e829b67497bbbc4012d1254bfc025b1193194024e3b851389a4
 Size: 682
-Filename: enigma2-plugin-skins-mxslimlinenp-dbg_3.0+git437+fef0482-r1_all.ipk
+Filename: enigma2-plugin-skins-mxslimlinenp-dbg_3.0+git439+29e6c85-r1_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP - Debugging files
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -3662,15 +3662,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-skins-mxslimlinenp-dev
-Version: 3.0+git437+fef0482-r1
-Recommends: enigma2-plugin-skins-mxslimlinenp (= 3.0+git437+fef0482-r1)
+Version: 3.0+git439+29e6c85-r1
+Recommends: enigma2-plugin-skins-mxslimlinenp (= 3.0+git439+29e6c85-r1)
 Section: devel
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: 5138957965ffb962e512e83bb75a9bfb
-SHA256sum: d891674c3aa7b3c57b504a94b20ff9b87ec9c4f02c01fc4f6a5264d667f5deae
+MD5Sum: 69df014c32eee83496663bce10c4fc6e
+SHA256sum: 409234ec9e3cd41a9027f773d6ec0bc839caa176828671b8509d9b02cce7da32
 Size: 720
-Filename: enigma2-plugin-skins-mxslimlinenp-dev_3.0+git437+fef0482-r1_all.ipk
+Filename: enigma2-plugin-skins-mxslimlinenp-dev_3.0+git439+29e6c85-r1_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP - Development files
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -3678,14 +3678,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-skins-mxslimlinenp
-Version: 3.0+git437+fef0482-r1
+Version: 3.0+git439+29e6c85-r1
 Section: base
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: 05e0324592960ed08428790b4f4fcd80
-SHA256sum: d80dda236914fb5d6bf463ed61ffe99a305dcbfcaf9b5fc50c09162c8a170591
-Size: 1940382
-Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git437+fef0482-r1_all.ipk
+MD5Sum: 245b4a191a429d3dda0a4beef9fc7f06
+SHA256sum: 820dad50453727c7e57b1a12ef0e055f54b0e8ef866ba95c354fff1ecbc83b8c
+Size: 1940390
+Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git439+29e6c85-r1_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -3697,9 +3697,9 @@ Version: 19.2+git259+600402d-r0
 Section: devel
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: ea3cfda1ca92657d542e077cf0599d90
-SHA256sum: 355b3d03baf2937990a3f93a0241111e8219264f04977a506486f49c8a348932
-Size: 676
+MD5Sum: 8a180dd40d0ed4648b11bcd982538511
+SHA256sum: 878f52cdf63a631745824a360bdb1a0fe7dc812b21f8acd2eff5c51d517c0831
+Size: 672
 Filename: enigma2-plugin-skins-mynovumhd2-dbg_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-mynovumhd2.bb
 Description: myNOVUM_HD2 by Nashu - Debugging files
@@ -3713,8 +3713,8 @@ Recommends: enigma2-plugin-skincomponents-novum-dev, enigma2-plugin-skins-mynovu
 Section: devel
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: ffe4de2829d47cf42448e7d77c13600e
-SHA256sum: 1fcf07ee2388d027afdaee1b5072a120398cea299b0169ef0ea5a43bf13ba650
+MD5Sum: 852ad674b34b10e2e89e07334ebaff16
+SHA256sum: 9be192d4bdfc886070868f7e29678ba7b3cce6c67bb1d912ea3393872d309fb6
 Size: 750
 Filename: enigma2-plugin-skins-mynovumhd2-dev_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-mynovumhd2.bb
@@ -3729,9 +3729,9 @@ Depends: enigma2-plugin-skincomponents-novum, enigma2-plugin-systemplugins-weath
 Section: base
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: a68699fd9b5f23711feeb33c4a513de2
-SHA256sum: 2fe9f96030ac88d9c66ccc4a4bae68d21b032d17e94fb238c296b5afe9927205
-Size: 5184208
+MD5Sum: 35f776f4685f74b8487a050e529de78f
+SHA256sum: 4ad0ebbbb3b0ae0b4438c0c67981f2978795c603b1988ad6910b3e7ad9b5b290
+Size: 5184346
 Filename: enigma2-plugin-skins-mynovumhd2_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-mynovumhd2.bb
 Description: myNOVUM_HD2 by Nashu
@@ -3744,9 +3744,9 @@ Version: 19.2+git259+600402d-r0
 Section: devel
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: 068cdc4b43f4585996bf1a9dd41aef5c
-SHA256sum: bd66695be36c694d84ccadbc5ac411d8bc2bd96ed4b9d5ac636166d4455ebc32
-Size: 684
+MD5Sum: 0d58011e900cc57807b01eaabc84dd62
+SHA256sum: f2b4018529e6f8b3aac2893b6285c3cceb41da43df053db42e58d3b5bb86d167
+Size: 682
 Filename: enigma2-plugin-skins-mynovumhd2black-dbg_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-mynovumhd2black.bb
 Description: myNOVUM_HD2_Black by Nashu - Debugging files
@@ -3760,8 +3760,8 @@ Recommends: enigma2-plugin-skincomponents-novum-dev, enigma2-plugin-skins-mynovu
 Section: devel
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: 9fee319c16795f7e72c8e6c132d744c1
-SHA256sum: 78ea36e236f876146fad07a11e89289f08d0a8ae01eeaa6a3139113a7fd9091f
+MD5Sum: ad2c8f47628e6d74d92ae8e2eca50eb1
+SHA256sum: 6a068917e1e2c38539a57b13207e95838d1a90865c88ea8feb50ef7f54ef3278
 Size: 758
 Filename: enigma2-plugin-skins-mynovumhd2black-dev_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-mynovumhd2black.bb
@@ -3776,9 +3776,9 @@ Depends: enigma2-plugin-skincomponents-novum, enigma2-plugin-systemplugins-weath
 Section: base
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: 12f8b64c1b139dd0cff6e4063a24a14d
-SHA256sum: e24742b250875e64a7e1e3eccc1fec215a3027b18594ba9f388aaf81df2897b0
-Size: 5293060
+MD5Sum: b232d3d9082a09b7c60c35be037ef642
+SHA256sum: 656e7a85b66386bff0cfd2bdf182db9e50fa65e3a083e6d5240fcaaf03a88459
+Size: 5293704
 Filename: enigma2-plugin-skins-mynovumhd2black_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-mynovumhd2black.bb
 Description: myNOVUM_HD2_Black by Nashu
@@ -3791,9 +3791,9 @@ Version: 16.0+git259+600402d-r0
 Section: devel
 Architecture: all
 Maintainer: Nashu
-MD5Sum: ffe50e8a4db05161cd455c68d70c23c1
-SHA256sum: 0f4bd26e586e385f9e2853c112f6312ca98975b8a8b73bb1376fb8e2b776b7af
-Size: 678
+MD5Sum: be242d197176fa2c98001c9df9309db4
+SHA256sum: 2767f6d652e75c6b7beb60f596ce4d12eca3676235e47151649deafb88c5f054
+Size: 676
 Filename: enigma2-plugin-skins-novum-fhd-light-dbg_16.0+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-novum-fhd-light.bb
 Description: NOVUM_FHD_Light by Nashu - Debugging files
@@ -3807,8 +3807,8 @@ Recommends: enigma2-plugin-skincomponents-novum-dev, enigma2-plugin-skins-novum-
 Section: devel
 Architecture: all
 Maintainer: Nashu
-MD5Sum: a4ebf874f0b900cf7a942822c88c3c11
-SHA256sum: fc993de8e1d1e355d964e75cbf8d32109cb333600600bbcfc6d4e69478135715
+MD5Sum: 80ae7765a160c2c35e71011e65a75cf7
+SHA256sum: 5dd87d3e39f204aaa615d6fc3de6082023fe35abffb07d61a9768286e1096fc7
 Size: 728
 Filename: enigma2-plugin-skins-novum-fhd-light-dev_16.0+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-novum-fhd-light.bb
@@ -3823,9 +3823,9 @@ Depends: enigma2-plugin-skincomponents-novum
 Section: base
 Architecture: all
 Maintainer: Nashu
-MD5Sum: 78837fcddfb407a6342ef8fadc673c79
-SHA256sum: 247fc4d46e21bfceb10ac906a842b23b754589167c81c9cf9db64a6039320148
-Size: 1918942
+MD5Sum: aef158523a37720fe9c75dc5396f1531
+SHA256sum: 5a24aa1c10b70b11e38d691c7727f84420f709e93967d1483bd020ec066f0bf6
+Size: 1918832
 Filename: enigma2-plugin-skins-novum-fhd-light_16.0+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-novum-fhd-light.bb
 Description: NOVUM_FHD_Light by Nashu
@@ -3838,8 +3838,8 @@ Version: 19.2+git259+600402d-r0
 Section: devel
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: f24b7ec26c0765013b408483ca4a78e9
-SHA256sum: 442cf418c1ab71b6d4f7ba6c2c31afd0df4e8256dff22f4fc66995790c8f7cbb
+MD5Sum: 38052488832d32a76431e508e9af826b
+SHA256sum: ffd3f2a5e3f1bdd7062d356201464ee469fe24995ed9e37dec10e4ca958fa934
 Size: 680
 Filename: enigma2-plugin-skins-novum-hd-slim-dbg_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-novum-hd-slim.bb
@@ -3854,8 +3854,8 @@ Recommends: enigma2-plugin-skincomponents-novum-dev, enigma2-plugin-skins-novum-
 Section: devel
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: abab0193a8b2c31af580bfeeeec4f33a
-SHA256sum: bd0f4157f36107a3c6c538d58201f19a56fcbc6a8f69776c5d06856023a12741
+MD5Sum: 7cf2db1b2a15a8136f3ff96db84394ec
+SHA256sum: e0646c94c760029dcfcb3252af7b769f5c6367d543c10a8977f34532ced8d0cd
 Size: 752
 Filename: enigma2-plugin-skins-novum-hd-slim-dev_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-novum-hd-slim.bb
@@ -3870,9 +3870,9 @@ Depends: enigma2-plugin-skincomponents-novum, enigma2-plugin-systemplugins-weath
 Section: base
 Architecture: all
 Maintainer: rossi2000
-MD5Sum: d014a6edb17f3baa23000d323227a918
-SHA256sum: 6592b8af7c30758f9855a3aa8ab59e9a1e26789bd4cf2cc266a4849f9fbf8e92
-Size: 5188236
+MD5Sum: 7d8dcdae40dfc1998cd9069b6d40ea42
+SHA256sum: 2faa39c3962f159c7294d42917561b5c49d99c739b02b63a35b0f49e9dc6170c
+Size: 5188240
 Filename: enigma2-plugin-skins-novum-hd-slim_19.2+git259+600402d-r0_all.ipk
 Source: enigma2-plugin-skins-novum-hd-slim.bb
 Description: NOVUM_HD_Slim by Nashu
@@ -4949,9 +4949,9 @@ Version: 0.4-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 0b1e5734cf8152be19cc732ffb4f1195
-SHA256sum: 7591398f65fdd7329e33f181aabde79d237c8befd310dee0104fccc51beb14e0
-Size: 674
+MD5Sum: f6976bf0459315e054c82c64867f64f8
+SHA256sum: 9983952fff57c65df16ffc241e6fdfbb3e159c73b1ccf992e8ab8470f26b24c2
+Size: 678
 Filename: livestreamersrv-dbg_0.4-r0_all.ipk
 Source: livestreamersrv_0.4.bb
 Description: livestreamersrv version 0.4-r0 - Debugging files
@@ -4966,9 +4966,9 @@ Recommends: livestreamersrv (= 0.4-r0), python3-core-dev, streamlink-dev
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 39b1e4026640ec0eef4b092f63811ffd
-SHA256sum: 35f2821da64f7f8b4866e3a1558453273afe85d87fd1f0b31c1b7ca645d0236e
-Size: 730
+MD5Sum: 4d4958128055ee38c2d2f7d6da8c8140
+SHA256sum: 0bf39bade349a0ce315ab907a64e730740a7087f73465c3e30ea48606e159916
+Size: 734
 Filename: livestreamersrv-dev_0.4-r0_all.ipk
 Source: livestreamersrv_0.4.bb
 Description: livestreamersrv version 0.4-r0 - Development files
@@ -4983,9 +4983,9 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 58a855173997a2529f5fa832e1160c3f
-SHA256sum: b05a3ada1c78088f6605ec6c2834d54bc80c64713eeed2bccbab7fc128873e76
-Size: 76660
+MD5Sum: 02f2c71a7ef5b548b6f26d304de7ff40
+SHA256sum: f086579f6fe83f8e0a1395fa975036c8198b82a467986d8c6180604816bbea8c
+Size: 76666
 Filename: livestreamersrv_0.4-r0_all.ipk
 Source: livestreamersrv_0.4.bb
 Description: livestreamersrv version 0.4-r0
@@ -5506,8 +5506,8 @@ Version: 1.8.2+git20+d8c0258-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 7a768c643da01f48f3fbfa111ebf5bd5
-SHA256sum: 1f5bb9555fdddd23ed7661ccca9fd668fc8aa366e65e27882b9d7e27ad26ee1b
+MD5Sum: 850ac24d0e4f1ab408c100d204c1f372
+SHA256sum: dfc85dcdb0ccb484d70880420a1dd65c3730e926c7037f15a089cd1d4e051e26
 Size: 708
 Filename: streamlinksrv-dbg_1.8.2+git20+d8c0258-r0_all.ipk
 Source: streamlinksrv.bb
@@ -5523,8 +5523,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.2+git20+d8c02
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 59137d12a93109d7ffff18f98ab991ac
-SHA256sum: 041ca273a1e344ceb1bd5ecbcbd9fab78c46f9c00e5d189b77753e383018ddc2
+MD5Sum: 799b2d67e7449c91fbb4197408615ed6
+SHA256sum: ba420f487fa6b25895f3e136efb6fa6e007da756ad9a3c3968323e96d1fc6ded
 Size: 760
 Filename: streamlinksrv-dev_1.8.2+git20+d8c0258-r0_all.ipk
 Source: streamlinksrv.bb
@@ -5540,8 +5540,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 0316ec15a159edf99b322c511af31ef0
-SHA256sum: a5532d302f6e8450d687f28cc3b88598dca6ac445f3de1f27be6d8ac124c8447
+MD5Sum: 962dc8d7356860ed5585c5103090f86e
+SHA256sum: 186ade33d778503bfb9ef2be68a702fea3f8a00c7d571ae63c4252137f24e006
 Size: 83020
 Filename: streamlinksrv_1.8.2+git20+d8c0258-r0_all.ipk
 Source: streamlinksrv.bb
@@ -5552,14 +5552,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 1.0+git827+51c1586-r0
+Version: 1.0+git829+ff20bb2-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 495ce4ca6d3cb4581ea70d497d1e5be1
-SHA256sum: 7d6e09097bc5eb5c83b0065d76c9d7c104b82f43f7fe2850b1853c8232cb0da0
+MD5Sum: d88ced84ef38d5c42f481042def2fdd3
+SHA256sum: 9855d539217f566788bf332934bb89aaec299166c984a7dbd5ad70bab77ca83d
 Size: 656
-Filename: tuxbox-common-dbg_1.0+git827+51c1586-r0_all.ipk
+Filename: tuxbox-common-dbg_1.0+git829+ff20bb2-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Debugging files
 OE: tuxbox-common
@@ -5567,15 +5567,15 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 1.0+git827+51c1586-r0
-Recommends: tuxbox-common (= 1.0+git827+51c1586-r0)
+Version: 1.0+git829+ff20bb2-r0
+Recommends: tuxbox-common (= 1.0+git829+ff20bb2-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: d0b0702f9ee52722c0cd0c1b93a53a90
-SHA256sum: 0f82a9e73e675cdf8cf385beedc7d6ff14e6d653b9fcf113487d17345581ec8a
-Size: 690
-Filename: tuxbox-common-dev_1.0+git827+51c1586-r0_all.ipk
+MD5Sum: 33230acc139f1486f1c07d4e658f9ebe
+SHA256sum: 1ec1ef8055ea58491ecc476fd4e445dedbca441c15eb441755b21989aae99e90
+Size: 692
+Filename: tuxbox-common-dev_1.0+git829+ff20bb2-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Development files
 OE: tuxbox-common
@@ -5583,14 +5583,14 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common
-Version: 1.0+git827+51c1586-r0
+Version: 1.0+git829+ff20bb2-r0
 Section: base
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: bd2ade01418b8f32876e9b505ad201d6
-SHA256sum: 67ecc0913339a82f9ee92c28cd00f1e7261cb2ede6360f9c877c21beb8959417
-Size: 57796
-Filename: tuxbox-common_1.0+git827+51c1586-r0_all.ipk
+MD5Sum: 1e833d3542e541ae8e73e5a9178eec5b
+SHA256sum: ed32818f2bed449e3844316af7c5709d7d92290d090b7830981faa9f98a3dc33
+Size: 57780
+Filename: tuxbox-common_1.0+git829+ff20bb2-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files
 OE: tuxbox-common
