@@ -3241,8 +3241,8 @@ Version: 2.09-20230805-git16+20be7db-r3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e2fdd6408e7f2eb91d2886f5aa92b77e
-SHA256sum: 4d079609c30b593f174da234f474228845298ce902afe96bcb3aedf81821df5d
+MD5Sum: b97861353e8c76bd4810d386df29b2c7
+SHA256sum: d4940e2f107826b85345e41a5f9df6ccec5d2127524e68d0c387b70bebead96a
 Size: 248888
 Filename: enigma2-plugin-extensions-jediepgxtream_2.09-20230805-git16+20be7db-r3_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
@@ -3306,8 +3306,8 @@ Version: 6.35-20231118-git163+1e09eb1-r3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: bbb1c3360c192886ea6620a8506ae6b6
-SHA256sum: ddc4987370e970dcdc61ad34202dd4face04f4b64c8e9668de3dbb9b5b68728c
+MD5Sum: c096fd45bc66616bfcff5596744349b2
+SHA256sum: a54e3fa7a1c7b50cf3f16821a79e4eb8987ca10c8bd74bf9267d207cf20b44ee
 Size: 2828392
 Filename: enigma2-plugin-extensions-jedimakerxtream_6.35-20231118-git163+1e09eb1-r3_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
@@ -3647,14 +3647,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kravenhd-dbg
-Version: 7.9.12+git177+1083f01-r0
+Version: 7.9.12+git178+1e39038-r0
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 29ac379c4d5dbf6cc0a7981a72878bbe
-SHA256sum: 03227bb475a05b0a00bd368e649bdcfe0bb3bf6af7ac5113b0e4c7f893765de5
+MD5Sum: c6821a8e954f689d6bbd5b69685ae3f8
+SHA256sum: da48ba1f619bf1d9d8b4723c4872e7dc2c8f830107887e8efdeac0bf52b6a241
 Size: 676
-Filename: enigma2-plugin-skins-kravenhd-dbg_7.9.12+git177+1083f01-r0_all.ipk
+Filename: enigma2-plugin-skins-kravenhd-dbg_7.9.12+git178+1e39038-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven - Debugging files
 OE: enigma2-plugin-skins-kravenhd
@@ -3662,15 +3662,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kravenhd-dev
-Version: 7.9.12+git177+1083f01-r0
-Recommends: enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-skins-kravenhd (= 7.9.12+git177+1083f01-r0), enigma2-plugin-systemplugins-mphelp-dev, python3-lxml-dev, python3-pillow-dev, python3-requests-dev
+Version: 7.9.12+git178+1e39038-r0
+Recommends: enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-skins-kravenhd (= 7.9.12+git178+1e39038-r0), enigma2-plugin-systemplugins-mphelp-dev, python3-lxml-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: e8f17cd038000e8eee4de68ec7f2addf
-SHA256sum: f3c82d221d7d3d827532a6ca8283a4605540d14d418dcdc9b3ebdceeeff09c89
-Size: 770
-Filename: enigma2-plugin-skins-kravenhd-dev_7.9.12+git177+1083f01-r0_all.ipk
+MD5Sum: 4101e23ba87c78302c6b206f6a98f96f
+SHA256sum: b47eda0e7c655bbeaafe5c6b50331a174c8b4b320e58faf3a916e095a4bf4115
+Size: 772
+Filename: enigma2-plugin-skins-kravenhd-dev_7.9.12+git178+1e39038-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven - Development files
 OE: enigma2-plugin-skins-kravenhd
@@ -3678,14 +3678,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kravenhd-src
-Version: 7.9.12+git177+1083f01-r0
+Version: 7.9.12+git178+1e39038-r0
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: ade753f00ddaa200b1933d4a968da637
-SHA256sum: 62e2b17d172bae4be03a87e9733344d62e935d7e7324e4356628623d4d7003ac
+MD5Sum: fb98646629a301f4024e302993f6a524
+SHA256sum: 3ae474f62787d165a9a5c55f94b6138aa09b1763fa2c553eefdee8dc8da3cc01
 Size: 70196
-Filename: enigma2-plugin-skins-kravenhd-src_7.9.12+git177+1083f01-r0_all.ipk
+Filename: enigma2-plugin-skins-kravenhd-src_7.9.12+git178+1e39038-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven - Source files
 OE: enigma2-plugin-skins-kravenhd
@@ -3693,7 +3693,7 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kravenhd
-Version: 7.9.12+git177+1083f01-r0
+Version: 7.9.12+git178+1e39038-r0
 Depends: enigma2-plugin-extensions-oaweather, enigma2-plugin-systemplugins-mphelp, python3-lxml, python3-pillow, python3-requests
 Provides: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
 Replaces: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
@@ -3701,10 +3701,10 @@ Conflicts: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
 Section: base
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 9004ed85c8a8125f51fc85e521afb39e
-SHA256sum: 07db4e373c74de353185b3db86cae2e73e89f3d3e127b4cc7e4263b822cd93d0
-Size: 4107754
-Filename: enigma2-plugin-skins-kravenhd_7.9.12+git177+1083f01-r0_all.ipk
+MD5Sum: 1c2b887b647b8688dee68afbec570436
+SHA256sum: 15f16d58d6205cc0d625e89b8a5968be7f7ed05d17c61cac97130689d018c5ff
+Size: 4106926
+Filename: enigma2-plugin-skins-kravenhd_7.9.12+git178+1e39038-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven
 OE: enigma2-plugin-skins-kravenhd
@@ -3754,6 +3754,52 @@ Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git468+541fa9c-r3_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP
 OE: enigma2-plugin-skins-mxslimlinenp
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxtitaniumc-dbg
+Version: 3.0+git468+541fa9c-r3
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 87fdf9db370b5a86c5e2a08751a57a90
+SHA256sum: 057817060a60b0fe533a9f7a64938f5e09fd4817df087fbae7358a013a333463
+Size: 678
+Filename: enigma2-plugin-skins-mxtitaniumc-dbg_3.0+git468+541fa9c-r3_all.ipk
+Source: enigma2-plugin-skins-mxtitaniumc.bb
+Description: Enigma2 Skin MX_Titanium_C - Debugging files
+OE: enigma2-plugin-skins-mxtitaniumc
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxtitaniumc-dev
+Version: 3.0+git468+541fa9c-r3
+Recommends: enigma2-plugin-skins-mxtitaniumc (= 3.0+git468+541fa9c-r3)
+Section: devel
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: b31c1bcbf8616f5b5a62e0b5527c7a4b
+SHA256sum: 30f3b22ad59870f48c5c073a3b20b6b57b5d36cd791521632759bccb0c4a3a2e
+Size: 714
+Filename: enigma2-plugin-skins-mxtitaniumc-dev_3.0+git468+541fa9c-r3_all.ipk
+Source: enigma2-plugin-skins-mxtitaniumc.bb
+Description: Enigma2 Skin MX_Titanium_C - Development files
+OE: enigma2-plugin-skins-mxtitaniumc
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-skins-mxtitaniumc
+Version: 3.0+git468+541fa9c-r3
+Section: base
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: bbb0226d296e3bfd7814f51e37e4d11e
+SHA256sum: 24500468b77d11d14d8203525d2c5cc324d1e4959fb0a66f42f2566843720654
+Size: 1817398
+Filename: enigma2-plugin-skins-mxtitaniumc_3.0+git468+541fa9c-r3_all.ipk
+Source: enigma2-plugin-skins-mxtitaniumc.bb
+Description: Enigma2 Skin MX_Titanium_C
+OE: enigma2-plugin-skins-mxtitaniumc
 License: GPL-2.0-or-later
 Priority: required
 
@@ -5075,9 +5121,9 @@ Version: 0.4-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 0b1e5734cf8152be19cc732ffb4f1195
-SHA256sum: 7591398f65fdd7329e33f181aabde79d237c8befd310dee0104fccc51beb14e0
-Size: 674
+MD5Sum: f6976bf0459315e054c82c64867f64f8
+SHA256sum: 9983952fff57c65df16ffc241e6fdfbb3e159c73b1ccf992e8ab8470f26b24c2
+Size: 678
 Filename: livestreamersrv-dbg_0.4-r0_all.ipk
 Source: livestreamersrv_0.4.bb
 Description: livestreamersrv version 0.4-r0 - Debugging files
@@ -5092,9 +5138,9 @@ Recommends: livestreamersrv (= 0.4-r0), python3-core-dev, streamlink-dev
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 39b1e4026640ec0eef4b092f63811ffd
-SHA256sum: 35f2821da64f7f8b4866e3a1558453273afe85d87fd1f0b31c1b7ca645d0236e
-Size: 730
+MD5Sum: 4d4958128055ee38c2d2f7d6da8c8140
+SHA256sum: 0bf39bade349a0ce315ab907a64e730740a7087f73465c3e30ea48606e159916
+Size: 734
 Filename: livestreamersrv-dev_0.4-r0_all.ipk
 Source: livestreamersrv_0.4.bb
 Description: livestreamersrv version 0.4-r0 - Development files
@@ -5109,9 +5155,9 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR
-MD5Sum: 58a855173997a2529f5fa832e1160c3f
-SHA256sum: b05a3ada1c78088f6605ec6c2834d54bc80c64713eeed2bccbab7fc128873e76
-Size: 76660
+MD5Sum: 02f2c71a7ef5b548b6f26d304de7ff40
+SHA256sum: f086579f6fe83f8e0a1395fa975036c8198b82a467986d8c6180604816bbea8c
+Size: 76666
 Filename: livestreamersrv_0.4-r0_all.ipk
 Source: livestreamersrv_0.4.bb
 Description: livestreamersrv version 0.4-r0
@@ -5632,9 +5678,9 @@ Version: 1.8.2+git24+ef91075-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: f86ee2de0f1a24738a8a89e3bdf2bedb
-SHA256sum: b110cf5f72d008ca4627735fc2752f01d566017bb2ae2482f265917686348d67
-Size: 708
+MD5Sum: dfb450d3e39edfd5ce4fd19d2248d673
+SHA256sum: 7830df21887bd72f81181df29596677c3d3cbe9ff9b9afc9994d2325f165c4e8
+Size: 710
 Filename: streamlinksrv-dbg_1.8.2+git24+ef91075-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 1.8.2+gitAUTOINC+ef9107543f-r0 - Debugging files
@@ -5649,8 +5695,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.2+git24+ef910
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 09bbdac0659d5e22cfae0858b895d4ad
-SHA256sum: 34abe301009e2e33c3e4c1f4f7556b97b1a6009a6c6d7f46d12cb4ab9a3d3c64
+MD5Sum: 25a951988ce4b5325d234f125653576f
+SHA256sum: 76d9d259a7f0f711a2eb37c894da55c68f7fc753ce9ad0324c5fafbdcaec1d5d
 Size: 758
 Filename: streamlinksrv-dev_1.8.2+git24+ef91075-r0_all.ipk
 Source: streamlinksrv.bb
@@ -5666,9 +5712,9 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 1018d850ef4b57b04a55139fdb25dd36
-SHA256sum: 97ab6a6bb73bb921844656117af4bdce112f8c42febed7d6b16466290895d754
-Size: 83016
+MD5Sum: 70ecad8cb80e38f4aae11f3972fd86fc
+SHA256sum: 4a3cd955c14eaf03c0d1c0e0ee36f881ca2907072c3285e510a7c849ab80d696
+Size: 83026
 Filename: streamlinksrv_1.8.2+git24+ef91075-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 1.8.2+gitAUTOINC+ef9107543f-r0
