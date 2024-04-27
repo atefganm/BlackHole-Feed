@@ -24,14 +24,14 @@ HomePage: http://www.world-of-satellite.com
 Priority: optional
 
 Package: enigma2-plugin-extensions-netspeedtest
-Version: 2.1.4
+Version: 2.1.5
 Section: extra
 Architecture: all
 Maintainer: mfaraj57 <@tunisia-sat.com>
-MD5Sum: 3845aa7c6d7ace28672ddcf8e529b9fb
-SHA256sum: 2d44baafe34f40cf6da56b38517a1f847383c9388b0ff43805045c3646220613
-Size: 275560
-Filename: enigma2-plugin-extensions-netspeedtest_2.1.4_all.ipk
+MD5Sum: 2838bce12a3b029562babd615f5e3ddc
+SHA256sum: 9ca95faf2416e514bc955eeaa4124f03fb7d4dccb725f491eade829726c8e340
+Size: 275686
+Filename: enigma2-plugin-extensions-netspeedtest_2.1.5_all.ipk
 Source: file://netspeedtest
 Description: Net speed Test
 OE: enigma2-plugin-extensions-netspeedtest
