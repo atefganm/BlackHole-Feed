@@ -112,15 +112,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: ca-certificates-dbg
-Version: 20241223-r0
+Version: 20250419-r0
 Section: devel
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 03bf8d9691ce63f5164d266da1c0b535
-SHA256sum: 6d3cdab60501555b7ce4f45f7ae1c562c8b71e6b3c2e1b9618dca105dc94343c
+MD5Sum: 78a3b28116ceef4f8be6fee76770f315
+SHA256sum: aee5cf6bea6b5fec654a221993d82d755829036e7fff76d2315362e8a9b98436
 Size: 674
-Filename: ca-certificates-dbg_20241223-r0_all.ipk
-Source: ca-certificates_20241223.bb
+Filename: ca-certificates-dbg_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
 Description: Common CA certificates - Debugging files
 OE: ca-certificates
 HomePage: http://packages.debian.org/sid/ca-certificates
@@ -128,16 +128,16 @@ License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
 Package: ca-certificates-dev
-Version: 20241223-r0
-Recommends: ca-certificates (= 20241223-r0), openssl-bin-dev, openssl-dev
+Version: 20250419-r0
+Recommends: ca-certificates (= 20250419-r0), openssl-bin-dev, openssl-dev
 Section: devel
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: c5b2eaf9e22403329ca94e98e6fa4b2b
-SHA256sum: 14251d0901f0835bcd9b06e2b2a4bdbc4bfec8d4b8a1c855776b81fd10f8bebf
-Size: 726
-Filename: ca-certificates-dev_20241223-r0_all.ipk
-Source: ca-certificates_20241223.bb
+MD5Sum: 4156f15af27178ba4ef12084516e86db
+SHA256sum: 9be8d598cfcb08667c6bc6b74e7a23fdec9579d232bea5f5ca17cc3c4d11bd99
+Size: 724
+Filename: ca-certificates-dev_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
 Description: Common CA certificates - Development files
 OE: ca-certificates
 HomePage: http://packages.debian.org/sid/ca-certificates
@@ -145,15 +145,15 @@ License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
 Package: ca-certificates-doc
-Version: 20241223-r0
+Version: 20250419-r0
 Section: doc
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 45ad3f72c85e97fa71e70d66f97eb0be
-SHA256sum: bae20cc84c24b496ead650cd14bf38e178f966ced93c7851ac029d5235c6ab4b
-Size: 2304
-Filename: ca-certificates-doc_20241223-r0_all.ipk
-Source: ca-certificates_20241223.bb
+MD5Sum: 9ab8d6f714d3fc089e9055fb2e0fac19
+SHA256sum: 725c68926d784a76df6f555fa7e53a5050609bf20c6d78498d27a2a753667df0
+Size: 2300
+Filename: ca-certificates-doc_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
 Description: Common CA certificates - Documentation files
 OE: ca-certificates
 HomePage: http://packages.debian.org/sid/ca-certificates
@@ -161,16 +161,16 @@ License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
 Package: ca-certificates
-Version: 20241223-r0
+Version: 20250419-r0
 Depends: openssl, openssl-bin
 Section: misc
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 12862ad1923e71b58f0ca0e1bceba296
-SHA256sum: 5218e5afa7e01bb9bdec45ab9d60f3131dd50d37ceae076d2b578f842ce8d327
-Size: 138326
-Filename: ca-certificates_20241223-r0_all.ipk
-Source: ca-certificates_20241223.bb
+MD5Sum: 116bcbcfc3a5339d5832903bc5c06b9c
+SHA256sum: 8baacd50191eebc63ff2c2207c42da2330424b062988ad9fc9132099524fb89c
+Size: 136286
+Filename: ca-certificates_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
 Description: Common CA certificates
 OE: ca-certificates
 HomePage: http://packages.debian.org/sid/ca-certificates
@@ -330,12 +330,13 @@ Priority: optional
 
 Package: easy-rsa
 Version: 2.3.0-r0
+Depends: openssl
 Section: console/network
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 9db051232cf94969363fd38c57a73579
-SHA256sum: af7d7b8eb00871a576e397eb4cac221fd3552d261c556e17830c2a0b0621f832
-Size: 11218
+MD5Sum: fe5236d4fc9342a06f6ef7c3c60e48bb
+SHA256sum: f388c1bf0c4af1655739d98e2a5c021ee1ebd003ffdf24508800caa66ecb5f3a
+Size: 11226
 Filename: easy-rsa_2.3.0-r0_all.ipk
 Source: easy-rsa_2.3.0.bb
 Description: Simple shell based CA utility
@@ -3348,8 +3349,8 @@ Version: 1.0+git5+aac1ba90+aac1ba982f-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: f27e47650a73a6650fa3b28a83510c2d
-SHA256sum: 99523a5b6c8535fa6d3263ba603733cfc0e4dd565b468cd0673edc9fd8a956ab
+MD5Sum: bac9161560dc230303e24d13239f9b1c
+SHA256sum: e18d0dcb12cc39afd1fa2cacf9f0ac7310320c4b52486e5b4c992c3cfe1bbb44
 Size: 10872
 Filename: enigma2-plugin-extensions-bouquetcleanup_1.0+git5+aac1ba90+aac1ba982f-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetcleanup.bb
@@ -3360,14 +3361,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
-Version: 1.52-20250430-git203+d92699c0+d92699c30c-r4
+Version: 1.54-20250520-git205+6fe9f270+6fe9f27964-r4
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 481d2794458ea5bef9c23e3e8a3a8a83
-SHA256sum: bf3bd9d8159bc9ca631e0a51f382f0d0a71ecc4c60ce097162845e28e663a1ee
+MD5Sum: dffd19a8a0105eeb413584c7b5f0a923
+SHA256sum: d37bc26d27bb8ebecd27b54abc26d24e69975bcaade6b3e7a20df504f1059072
 Size: 634
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.52-20250430-git203+d92699c0+d92699c30c-r4_all.ipk
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.54-20250520-git205+6fe9f270+6fe9f27964-r4_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -3376,15 +3377,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
-Version: 1.52-20250430-git203+d92699c0+d92699c30c-r4
-Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.52-20250430-git203+d92699c0+d92699c30c-r4)
+Version: 1.54-20250520-git205+6fe9f270+6fe9f27964-r4
+Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.54-20250520-git205+6fe9f270+6fe9f27964-r4)
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 122f9ea5fd5ff84e5061efc030db9947
-SHA256sum: bcac6259202c3c5f3c342b2dcd94f2c5a67fa92ce79162186515f0b35fc76877
+MD5Sum: 43bccacbe4a7966d3246cbf5206c26b2
+SHA256sum: 19720c00fa9f1fa935e49d9249c6b412ea58dfe01b9e168d9330bc5b883444d1
 Size: 670
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.52-20250430-git203+d92699c0+d92699c30c-r4_all.ipk
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.54-20250520-git205+6fe9f270+6fe9f27964-r4_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -3393,14 +3394,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-src
-Version: 1.52-20250430-git203+d92699c0+d92699c30c-r4
+Version: 1.54-20250520-git205+6fe9f270+6fe9f27964-r4
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 0e4883f6a2821962e2ab631cdd25077a
-SHA256sum: 4cad40a26e2c11eaa455c9326b1f39dcf8d5167b479c07d17179c558dadfdc27
-Size: 55404
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-src_1.52-20250430-git203+d92699c0+d92699c30c-r4_all.ipk
+MD5Sum: dd24a9113559554a104eb7f8c7578495
+SHA256sum: 9284e2eb65aa10c11f7529e084bcf5c16bc30f218677d6f12215e7cc7b07a5f8
+Size: 55530
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-src_1.54-20250520-git205+6fe9f270+6fe9f27964-r4_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Source files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -3409,14 +3410,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 1.52-20250430-git203+d92699c0+d92699c30c-r4
+Version: 1.54-20250520-git205+6fe9f270+6fe9f27964-r4
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 7eac3ed40ea5a515d9e95a8a05122e90
-SHA256sum: 373516508cd4355fc64f26eb396c9765709d5907471ac6a2c8f76c4549ab7a11
-Size: 1395766
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.52-20250430-git203+d92699c0+d92699c30c-r4_all.ipk
+MD5Sum: 9d6822f2cb0b2e348dc687056db29452
+SHA256sum: 912065cbd3bfdac1aee04f85311c0fd6cf01e33695dcc67749889d40ea10c6b4
+Size: 1395572
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.54-20250520-git205+6fe9f270+6fe9f27964-r4_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -3425,14 +3426,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer-dbg
-Version: 1.27-20241030-git63+4a271580+4a2715814e-r0
+Version: 1.28-20250517-git64+50022390+50022393f1-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 539c54583ae8f127a4e25bb126279ad2
-SHA256sum: 6f265668c3cde684ab1d9cc8f169d75c8b2443b597e3cf47364bd6e261de7546
+MD5Sum: d07643802fc934284b04bc20c5b45c3a
+SHA256sum: bf61e25f695f8efe800c473fdc55ee642b79f725501f0348487a9d237c613cfd
 Size: 634
-Filename: enigma2-plugin-extensions-e2piconizer-dbg_1.27-20241030-git63+4a271580+4a2715814e-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2piconizer-dbg_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
 Description: enigma2-plugin-extensions-e2piconizer version git-r0 - Debugging files
 OE: enigma2-plugin-extensions-e2piconizer
@@ -3441,15 +3442,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer-dev
-Version: 1.27-20241030-git63+4a271580+4a2715814e-r0
-Recommends: enigma2-plugin-extensions-e2piconizer (= 1.27-20241030-git63+4a271580+4a2715814e-r0)
+Version: 1.28-20250517-git64+50022390+50022393f1-r0
+Recommends: enigma2-plugin-extensions-e2piconizer (= 1.28-20250517-git64+50022390+50022393f1-r0)
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: cacc3cf06659a60ac8ea0b0c0fd81a0c
-SHA256sum: f412a9c3b4c616c329c823163e21fc35d045066a7f01018a1038de2bf67b0270
+MD5Sum: c560eaf5e9f5752c0cdaacdb31a33b58
+SHA256sum: a6045def40e50bb5c65c30bda0e580701f5db05c061b5c08a114f192f70a6a1e
 Size: 670
-Filename: enigma2-plugin-extensions-e2piconizer-dev_1.27-20241030-git63+4a271580+4a2715814e-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2piconizer-dev_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
 Description: enigma2-plugin-extensions-e2piconizer version git-r0 - Development files
 OE: enigma2-plugin-extensions-e2piconizer
@@ -3458,14 +3459,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer-src
-Version: 1.27-20241030-git63+4a271580+4a2715814e-r0
+Version: 1.28-20250517-git64+50022390+50022393f1-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 322b32ff59a2bb1eefabab642b8b9c6b
-SHA256sum: dd4dc02bb444fb9726b86f325773c95d6f2fd44c6681a565489fc594c78378e1
-Size: 15354
-Filename: enigma2-plugin-extensions-e2piconizer-src_1.27-20241030-git63+4a271580+4a2715814e-r0_all.ipk
+MD5Sum: c3262aee8ef10f0a97999a02ac06e8bd
+SHA256sum: 6e1d4688fea079c1ddfebb4984f54eb4aefb44918f9c2efdf039045b882a3144
+Size: 15454
+Filename: enigma2-plugin-extensions-e2piconizer-src_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
 Description: enigma2-plugin-extensions-e2piconizer version git-r0 - Source files
 OE: enigma2-plugin-extensions-e2piconizer
@@ -3474,14 +3475,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer
-Version: 1.27-20241030-git63+4a271580+4a2715814e-r0
+Version: 1.28-20250517-git64+50022390+50022393f1-r0
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: aa8ee2bdfd20ca61d17de78f72132042
-SHA256sum: 2ca47cebae5ea5a7e1712688c4f894315bc5f9702c8994ce8f79668869f56f80
-Size: 1821186
-Filename: enigma2-plugin-extensions-e2piconizer_1.27-20241030-git63+4a271580+4a2715814e-r0_all.ipk
+MD5Sum: 379f161213b0085ff41eeb534c6698b6
+SHA256sum: 20b902d40fdc9d1603fdf1a36e312f8e2250a5c954c31418a9f23339a91205d4
+Size: 1377026
+Filename: enigma2-plugin-extensions-e2piconizer_1.28-20250517-git64+50022390+50022393f1-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
 Description: enigma2-plugin-extensions-e2piconizer version git-r0
 OE: enigma2-plugin-extensions-e2piconizer
@@ -3543,9 +3544,9 @@ Version: 1.4.5-git117+86e974d0+86e974da2f-r0
 Section: base
 Architecture: all
 Maintainer: enigmawelt jbleyel CommanderData2338
-MD5Sum: 6217b7f9c00efd1853ac81c8f0901cd2
-SHA256sum: eb30b9658e304378e9c575dec22c93800818e1e9935b9f33cf92c4a0d8316100
-Size: 347172
+MD5Sum: 6c204d4c06976395284e5d951a43b967
+SHA256sum: 53984182dce06ecb4ec4f5d9eac32d99a0f6a54be03a714c00418dfbe6b8ec92
+Size: 347174
 Filename: enigma2-plugin-extensions-enigmawelt_1.4.5-git117+86e974d0+86e974da2f-r0_all.ipk
 Source: enigma2-plugin-extensions-enigmawelt.bb
 Description: The biggest DreamOS/Enigma2 Video Blog
@@ -3609,8 +3610,8 @@ Depends: python3-requests
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 5a1a6beb1df83db39f11cba528b1b207
-SHA256sum: d2c8b12146139a1a140544b004b1b804272b5db48d6941bf001ba881f7a821b3
+MD5Sum: 5f6dfae10f907f3a728add4a1bb96d7f
+SHA256sum: 21e1b068c82b38af2a4672643f5c844e0310139aa868d7835951394da7fca45f
 Size: 24106
 Filename: enigma2-plugin-extensions-iptv-org-playlists_1.0+git10+4d0456a0+4d0456a218-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
@@ -3674,9 +3675,9 @@ Version: 2.12-20241030-git19+81988420+81988420c8-r3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 167957ae8ca2506f8947ecf5eb26c69b
-SHA256sum: 2e2f54e750aa0fb0da7ef6975b993b7e915fc9a3fa2206ead5e4462196c9dc1a
-Size: 296988
+MD5Sum: 68fa7cc97f3adf38d8940a3f8fc0506d
+SHA256sum: 6bacc04b970f082ab011dd0460cdca83fe354957977cb74296b793b74caad467
+Size: 296982
 Filename: enigma2-plugin-extensions-jediepgxtream_2.12-20241030-git19+81988420+81988420c8-r3_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
 Description: enigma2-plugin-extensions-jediepgxtream version git-r3
@@ -3739,9 +3740,9 @@ Version: 1.0+git7+16be3870+16be387903-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: d1e2d3ca61878ad9ebd7705d8af7f743
-SHA256sum: f9f38ef54b1aa0ac000dd2d771b5156202d3da2ea2c85f6b62e2db1c5b737e60
-Size: 14714
+MD5Sum: 9ea705257812bea604707bc4d4d53bd9
+SHA256sum: 10150a6f9e4965f02fd7431829fa4094a45fdcd434d061df25d34f5e287dddbe
+Size: 14718
 Filename: enigma2-plugin-extensions-lamedbmerger_1.0+git7+16be3870+16be387903-r0_all.ipk
 Source: enigma2-plugin-extensions-lamedbmerger.bb
 Description: enigma2-plugin-extensions-lamedbmerger version 1.0+git-r0
@@ -3805,9 +3806,9 @@ Depends: python3-email, python3-json, python3-sqlite3, python3-xmlrpc
 Section: extra
 Architecture: all
 Maintainer: einfall & w22754 & egn & MacDisein
-MD5Sum: f884bb96d3df2c62fd0664160ec12a5b
-SHA256sum: de5872b6ce48cb3dfeb66cc841465275e7127b716387d12365b40c4f34c4a8a3
-Size: 836550
+MD5Sum: 2d7e4f2b900e9e2bfcd08d00de968faf
+SHA256sum: f857be58db5b56a8f49546d5e7a506650087d8513031440cc227ccfdd5468347
+Size: 837072
 Filename: enigma2-plugin-extensions-serienrecorder_4.7.6-git597+76b169c0+76b169c416-r0_all.ipk
 Source: enigma2-plugin-extensions-serienrecorder.bb
 Description: Erstellt automatisiert Timer fuer deine Lieblings-Serien - nie mehr eine Folge verpassen!
@@ -3817,14 +3818,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-dbg
-Version: 1.51-20250505-git99+25ba5560+25ba55680e-r1
+Version: 1.52-20250517-git100+afb3e030+afb3e038b8-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9419d747fc8d0af5e17fab52987483d7
-SHA256sum: 47a3537a8d25f01be10196fc477bcf9e87b7bea361c5d4d4b1f3901df7bcf707
-Size: 642
-Filename: enigma2-plugin-extensions-xklass-dbg_1.51-20250505-git99+25ba5560+25ba55680e-r1_all.ipk
+MD5Sum: 94fe6258682397fdf3756a16a7db826f
+SHA256sum: 73efee726f753b522c3773ab9d0651d09e1d8411264269fad1ac47ee3a336581
+Size: 644
+Filename: enigma2-plugin-extensions-xklass-dbg_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Debugging files
 OE: enigma2-plugin-extensions-xklass
@@ -3833,15 +3834,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-dev
-Version: 1.51-20250505-git99+25ba5560+25ba55680e-r1
-Recommends: enigma2-plugin-extensions-xklass (= 1.51-20250505-git99+25ba5560+25ba55680e-r1), python3-pillow-dev, python3-requests-dev, wget-dev
+Version: 1.52-20250517-git100+afb3e030+afb3e038b8-r1
+Recommends: enigma2-plugin-extensions-xklass (= 1.52-20250517-git100+afb3e030+afb3e038b8-r1), python3-pillow-dev, python3-requests-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b2b71c2679c6f0b9af9b1d7a203ca54b
-SHA256sum: 9a3bb1fd41a97b995b10edabef98c98309bd2e074babd742beb7da825228827d
-Size: 706
-Filename: enigma2-plugin-extensions-xklass-dev_1.51-20250505-git99+25ba5560+25ba55680e-r1_all.ipk
+MD5Sum: 0180e205287f474e2a65e9474b2b7d9d
+SHA256sum: 11897a811bca6a5bb7e49784b09ab985c7b30edf9af3b33d5186785d906be803
+Size: 708
+Filename: enigma2-plugin-extensions-xklass-dev_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Development files
 OE: enigma2-plugin-extensions-xklass
@@ -3850,14 +3851,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-src
-Version: 1.51-20250505-git99+25ba5560+25ba55680e-r1
+Version: 1.52-20250517-git100+afb3e030+afb3e038b8-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5c68821f60f977445440e43b0a588ce4
-SHA256sum: 7848fc98494c57b30f2325e0fc1f425780ec76671f2c968f887dbe90746fc919
-Size: 102978
-Filename: enigma2-plugin-extensions-xklass-src_1.51-20250505-git99+25ba5560+25ba55680e-r1_all.ipk
+MD5Sum: 3efa30fb734a7541a46a0ab9dcc9c662
+SHA256sum: 46c8258f8b3ae726d3e2803df4249a432986faadb1e5b8accb695dafbeaf9f2f
+Size: 102982
+Filename: enigma2-plugin-extensions-xklass-src_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Source files
 OE: enigma2-plugin-extensions-xklass
@@ -3866,15 +3867,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass
-Version: 1.51-20250505-git99+25ba5560+25ba55680e-r1
+Version: 1.52-20250517-git100+afb3e030+afb3e038b8-r1
 Depends: python3-pillow, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 07c7deaa50400d68779b01fce6493fa9
-SHA256sum: 518cc55fc1aa7af380cffeec854eb826490a85c2e928b7328a437666b695d18d
-Size: 5774542
-Filename: enigma2-plugin-extensions-xklass_1.51-20250505-git99+25ba5560+25ba55680e-r1_all.ipk
+MD5Sum: 50511bde5c3356d3fe704badd93d8ffc
+SHA256sum: 13657e1ae63bba3d2f310844df502a970bde4af66d4eb9027af60739e9bd0b75
+Size: 5774376
+Filename: enigma2-plugin-extensions-xklass_1.52-20250517-git100+afb3e030+afb3e038b8-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
 OE: enigma2-plugin-extensions-xklass
@@ -3883,14 +3884,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 4.99-20250505-git564+1a430570+1a4305783b-r1
+Version: 5.00-20250517-git565+2cc55940+2cc5594a89-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b4284d46e4afbc5381db00bf33e5323f
-SHA256sum: 0fc6a6be991825d9127c9b5e79da34477045c3dcbe56197d34e6c9f488d90c3d
+MD5Sum: 770b3f69dd37add574e7405cb7d3945b
+SHA256sum: ca2a3f5c1ccfa3bbbd005a9d8e8fe8cf5e21925556e5e7975428d0aba05163f1
 Size: 638
-Filename: enigma2-plugin-extensions-xstreamity-dbg_4.99-20250505-git564+1a430570+1a4305783b-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dbg_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3899,15 +3900,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 4.99-20250505-git564+1a430570+1a4305783b-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 4.99-20250505-git564+1a430570+1a4305783b-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 5.00-20250517-git565+2cc55940+2cc5594a89-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 5.00-20250517-git565+2cc55940+2cc5594a89-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f4a5d5e496d56aa1a0418693e5c3e3b7
-SHA256sum: 96c5c43f4741a53bbd838edb2fb9f2c042680226aa88f8deb3ef080c676d0a1f
+MD5Sum: bff3e782f68b10c96c39e66e68c2ce8f
+SHA256sum: 4af7bd01a62dbf8466841a4c585b21c6aa03312ec29d2c4e2fd3e6a96204b122
 Size: 708
-Filename: enigma2-plugin-extensions-xstreamity-dev_4.99-20250505-git564+1a430570+1a4305783b-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dev_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3916,14 +3917,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 4.99-20250505-git564+1a430570+1a4305783b-r1
+Version: 5.00-20250517-git565+2cc55940+2cc5594a89-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d671a6cbd29414a44a93679449f7c717
-SHA256sum: ec09b5c9f17c6663fd6ee9dd079d99b336ebedb50f3e811351c3960830d31e69
-Size: 99148
-Filename: enigma2-plugin-extensions-xstreamity-src_4.99-20250505-git564+1a430570+1a4305783b-r1_all.ipk
+MD5Sum: ff99a41f792951bd9ea78b5a923d28ba
+SHA256sum: d6f85d8aa2c9c7f9f2633efdaff6c84706f3b51f4e27390550997d0dc4eb2fcc
+Size: 99210
+Filename: enigma2-plugin-extensions-xstreamity-src_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -3932,15 +3933,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 4.99-20250505-git564+1a430570+1a4305783b-r1
+Version: 5.00-20250517-git565+2cc55940+2cc5594a89-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a4e1c282388191f0985cad935352e805
-SHA256sum: add53aabfbecfb2a8f6ffcfc6739bcf7f466b7a45f2417cdc396110f97db12cb
-Size: 4510324
-Filename: enigma2-plugin-extensions-xstreamity_4.99-20250505-git564+1a430570+1a4305783b-r1_all.ipk
+MD5Sum: 15a442aaa22669f30ab9890a46df44d6
+SHA256sum: c3d83778ad279974dc10ec8c69700e331df1f66519087125ff078bc7bd02952b
+Size: 4510180
+Filename: enigma2-plugin-extensions-xstreamity_5.00-20250517-git565+2cc55940+2cc5594a89-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -4045,14 +4046,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-e2-darkos-dbg
-Version: 1.0+git266+addacbb0+addacbb571-r0
+Version: 1.0+git268+48977860+4897786c47-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 2d685227f6a168b7ac37ed87bd4b36cd
-SHA256sum: 52d95b785bd874d5bea4bc38f5ec6fa109e226ac722f767be5fcf7c67f4377b4
-Size: 622
-Filename: enigma2-plugin-skins-e2-darkos-dbg_1.0+git266+addacbb0+addacbb571-r0_all.ipk
+MD5Sum: fbdb672e657ef85b3ce6c64b152c1d02
+SHA256sum: 05df33a7c5f7ef1a02135c7af47eb2e2217bb8723fdd2d7f691c626d2ec08806
+Size: 624
+Filename: enigma2-plugin-skins-e2-darkos-dbg_1.0+git268+48977860+4897786c47-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-skins-e2-darkos
@@ -4061,15 +4062,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2-darkos-dev
-Version: 1.0+git266+addacbb0+addacbb571-r0
-Recommends: enigma2-plugin-skins-e2-darkos (= 1.0+git266+addacbb0+addacbb571-r0)
+Version: 1.0+git268+48977860+4897786c47-r0
+Recommends: enigma2-plugin-skins-e2-darkos (= 1.0+git268+48977860+4897786c47-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: bde371f5de3502b20b41b4ecc44f9895
-SHA256sum: cf9712dc5082832e29a129f2931fe0dcd5345b5853c373bb063496c23011009d
-Size: 658
-Filename: enigma2-plugin-skins-e2-darkos-dev_1.0+git266+addacbb0+addacbb571-r0_all.ipk
+MD5Sum: 6dcd2cc504350e38cf1663ec0f3694fa
+SHA256sum: 19f2d1912df25adb121d2226fa1f5fb93c0027e9e4765b6b151fec7b1df8fccc
+Size: 660
+Filename: enigma2-plugin-skins-e2-darkos-dev_1.0+git268+48977860+4897786c47-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.0+git-r0 - Development files
 OE: enigma2-plugin-skins-e2-darkos
@@ -4078,15 +4079,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2-darkos
-Version: 1.0+git266+addacbb0+addacbb571-r0
+Version: 1.0+git268+48977860+4897786c47-r0
 Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 3c7d92946af9926f9ba4d53b745c92e7
-SHA256sum: 12fc30d3efd9de2fe4f9c706b9b45d77b71de44e9706e7609eae460d833b05d4
-Size: 3072562
-Filename: enigma2-plugin-skins-e2-darkos_1.0+git266+addacbb0+addacbb571-r0_all.ipk
+MD5Sum: 65aebd84b836d8fbfb8136185d0054b5
+SHA256sum: cc288cf3e17ab4b0e2f1abc042f2b8d879195b706b744c08e1aed37ba351e009
+Size: 3072620
+Filename: enigma2-plugin-skins-e2-darkos_1.0+git268+48977860+4897786c47-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.0+git-r0
 OE: enigma2-plugin-skins-e2-darkos
@@ -4095,14 +4096,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-mxslimlinenp-dbg
-Version: 3.0+git510+ac4ef1f0+ac4ef1fe95-r3
+Version: 3.0+git511+4120b1c0+4120b1c7c5-r3
 Section: devel
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: 95f3a9933e527a9430a5570d77a9dcba
-SHA256sum: c1ceeb5a7fbd337b04d8e3cd53748b5f4168a26c3eb82b76cd4950d3f7d3cf5e
-Size: 616
-Filename: enigma2-plugin-skins-mxslimlinenp-dbg_3.0+git510+ac4ef1f0+ac4ef1fe95-r3_all.ipk
+MD5Sum: c9afddbb3860127f782d86c8187dcf43
+SHA256sum: 8f78d60daf4dcdbf4ff5c33a2e39dc015d9543f3cc4875f4f3419d87bb22cf98
+Size: 618
+Filename: enigma2-plugin-skins-mxslimlinenp-dbg_3.0+git511+4120b1c0+4120b1c7c5-r3_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP - Debugging files
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -4111,15 +4112,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-skins-mxslimlinenp-dev
-Version: 3.0+git510+ac4ef1f0+ac4ef1fe95-r3
-Recommends: enigma2-plugin-skins-mxslimlinenp (= 3.0+git510+ac4ef1f0+ac4ef1fe95-r3)
+Version: 3.0+git511+4120b1c0+4120b1c7c5-r3
+Recommends: enigma2-plugin-skins-mxslimlinenp (= 3.0+git511+4120b1c0+4120b1c7c5-r3)
 Section: devel
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: 0d3125a6f9d442c11ec53808091449e0
-SHA256sum: aa95627d7ac84c102ee577cbbdc3d337f7418c3c3a6e82b7509ffca151eee617
+MD5Sum: 4b790932bfbdeaaf9865addd12285831
+SHA256sum: a1efa60f8b5fb57652d5856f958a5953915e0d3ebfbaef8551bc910fb7e19afe
 Size: 652
-Filename: enigma2-plugin-skins-mxslimlinenp-dev_3.0+git510+ac4ef1f0+ac4ef1fe95-r3_all.ipk
+Filename: enigma2-plugin-skins-mxslimlinenp-dev_3.0+git511+4120b1c0+4120b1c7c5-r3_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP - Development files
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -4128,14 +4129,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-skins-mxslimlinenp
-Version: 3.0+git510+ac4ef1f0+ac4ef1fe95-r3
+Version: 3.0+git511+4120b1c0+4120b1c7c5-r3
 Section: base
 Architecture: all
 Maintainer: OpenBh Team
-MD5Sum: 9932d762ef52e4238d5b02769f6f20b2
-SHA256sum: 2020f3e56a1a56cb476ac0c9772363e48707a88b2bdc7adbc969108aae23f336
-Size: 2230530
-Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git510+ac4ef1f0+ac4ef1fe95-r3_all.ipk
+MD5Sum: 3aafb389eb07d827fe9f840c18f3ef08
+SHA256sum: 373e97ca0dd60f73b0dd5036fcf95a2dbb3ecbdaaace091d13c3b0d72cd3d37f
+Size: 2230502
+Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git511+4120b1c0+4120b1c7c5-r3_all.ipk
 Source: enigma2-plugin-skins-mxslimlinenp.bb
 Description: Enigma2 Skin MX_Slim-Line_NP
 OE: enigma2-plugin-skins-mxslimlinenp
@@ -4246,9 +4247,9 @@ Version: 1.0+git13+1ba37540+1ba37548ad-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 91ae56231a37dde5d453b1062fa3b2a8
-SHA256sum: 31a76a6833d1e6f5e639c2516339d841c521217af2d89a3b5e0399c0c8f49bcf
-Size: 19168
+MD5Sum: 22e131989231928a2158eb4690de9c87
+SHA256sum: 47f7ce7609e66db97e99bbe3bc270463d4e35547b4dd45a0682294ce533d2871
+Size: 19170
 Filename: enigma2-plugin-systemplugins-eitconfig_1.0+git13+1ba37540+1ba37548ad-r0_all.ipk
 Source: enigma2-plugin-systemplugins-eitconfig.bb
 Description: enigma2-plugin-systemplugins-eitconfig version 1.0+git-r0
@@ -4258,14 +4259,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dbg
-Version: 1.0+git402+416a20f0+416a20f508-r0
+Version: 1.0+git408+0d3ae900+0d3ae90f30-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: c4267e39bcdd31f07aa905db52fd9e52
-SHA256sum: e443ed6a95e182fc29a78a33af068c36ddcb79c345c7c4e36fbfdadad3b72264
-Size: 618
-Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git402+416a20f0+416a20f508-r0_all.ipk
+MD5Sum: 660ebbd17226afb30d5486b0257deb07
+SHA256sum: e69faa331fa7b82d2b83a1fabf28c6e564b3b6a62192bdee825fbb58fff2f779
+Size: 620
+Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git408+0d3ae900+0d3ae90f30-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4274,15 +4275,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dev
-Version: 1.0+git402+416a20f0+416a20f508-r0
-Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git402+416a20f0+416a20f508-r0), python3-multiprocessing-dev, python3-requests-dev, python3-zoneinfo-dev
+Version: 1.0+git408+0d3ae900+0d3ae90f30-r0
+Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git408+0d3ae900+0d3ae90f30-r0), python3-multiprocessing-dev, python3-requests-dev, python3-zoneinfo-dev
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 60dca81d0ac5255f93670a9c120e70de
-SHA256sum: cc3f6b1292bc65d5682f778e124a52fbdd5ad95988ae20d13645d7c9907fccc7
+MD5Sum: 3acff65a6821ebc68d0cafae50dfc0c7
+SHA256sum: fb1a7f538ce66e0ee35905f83dc22c2be5994a3c5b00579cff59ba6e6b08a070
 Size: 692
-Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git402+416a20f0+416a20f508-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git408+0d3ae900+0d3ae90f30-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4291,14 +4292,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-src
-Version: 1.0+git402+416a20f0+416a20f508-r0
+Version: 1.0+git408+0d3ae900+0d3ae90f30-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 2f01e386d53a99a90f615ba63f9c0262
-SHA256sum: a16e0c34dcdc2bc0eb53741e3c518b79e10d6ab7ba323eeb930a7d0b20a44f6e
-Size: 51518
-Filename: enigma2-plugin-systemplugins-m3uiptv-src_1.0+git402+416a20f0+416a20f508-r0_all.ipk
+MD5Sum: 02a374cfe61649e81d9b9219155bec17
+SHA256sum: bf2ada35bf2a4af512224da5e382dc792930463c5d3c6f9a443b0d5a6dac67d9
+Size: 53832
+Filename: enigma2-plugin-systemplugins-m3uiptv-src_1.0+git408+0d3ae900+0d3ae90f30-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Source files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4307,15 +4308,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv
-Version: 1.0+git402+416a20f0+416a20f508-r0
+Version: 1.0+git408+0d3ae900+0d3ae90f30-r0
 Depends: python3-multiprocessing, python3-requests, python3-zoneinfo
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 43f4c23a6ccceb8797ee256dacf5b57d
-SHA256sum: 021e7d9de402bae9b1ae971204eb78ef750f40549f11263451f5cafe5fbff8fb
-Size: 217872
-Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git402+416a20f0+416a20f508-r0_all.ipk
+MD5Sum: 6848aca27ca61b368ce556ccb19b667f
+SHA256sum: a3b28da3fa849f93ba91282a107f50123a8590f79ee76b389498d7dd20cc5f49
+Size: 221516
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git408+0d3ae900+0d3ae90f30-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4377,9 +4378,9 @@ Version: 1.0+git22+2bb40440+2bb40447d6-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 121a4e8ee5d968da7d8bc4f6ab93bffc
-SHA256sum: 3c975659eafe843ec9eade762e1513d529d3e2b731515df2f6584f01f2239df0
-Size: 9556
+MD5Sum: 3aa939a19f18571d58abbed564a0b416
+SHA256sum: 67943e95473a3fa1aa778d830bf9557a3edeae36e98b60110b95bf77984dce89
+Size: 9558
 Filename: enigma2-plugin-systemplugins-remotecontrolselection_1.0+git22+2bb40440+2bb40447d6-r0_all.ipk
 Source: enigma2-plugin-systemplugins-remotecontrolselection.bb
 Description: enigma2-plugin-systemplugins-remotecontrolselection version 1.0+git-r0
@@ -4442,9 +4443,9 @@ Version: 1.0+git11+564df070+564df07777-r0
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: df49fdd00eec5d4f7ef1b83e6ab7f461
-SHA256sum: 44a0e686298065f83b94c0c63c4d09f0e86c90067e1fbaebf5a946b403e887ea
-Size: 14020
+MD5Sum: 6c722a3c48455a4ecd79ae6c709e64a2
+SHA256sum: 7c222b2c06422be73b078c289a245fd003a09078baef7245d876524e4b369ce6
+Size: 14018
 Filename: enigma2-plugin-systemplugins-terrestrialbouquet_1.0+git11+564df070+564df07777-r0_all.ipk
 Source: enigma2-plugin-systemplugins-terrestrialbouquet.bb
 Description: enigma2-plugin-systemplugins-terrestrialbouquet version 1.0+git-r0
@@ -4470,18 +4471,54 @@ HomePage: https://www.openbh.net
 License: GPL-2.0-only
 Priority: optional
 
-Package: epgimport-rytec
-Version: 20250331-r0
+Package: epgimport-sources-dbg
+Version: 20250509-git5+4935e640+4935e644c5-r0
+Section: devel
+Architecture: all
+Maintainer: oe-alliance
+MD5Sum: ae717c122dd120b9f57c27b930ebf2e6
+SHA256sum: 69d3e90c7092bde3747f8ecf28ab6dfca64d9e59b8cc9f7b7b45ca31384bb827
+Size: 606
+Filename: epgimport-sources-dbg_20250509-git5+4935e640+4935e644c5-r0_all.ipk
+Source: epgimport-sources.bb
+Description: enigma2 sources and channels for the EPG importer - Debugging files
+OE: epgimport-sources
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: epgimport-sources-dev
+Version: 20250509-git5+4935e640+4935e644c5-r0
+Recommends: epgimport-sources (= 20250509-git5+4935e640+4935e644c5-r0)
+Section: devel
+Architecture: all
+Maintainer: oe-alliance
+MD5Sum: 5d9cbafbbfcf964d2b99dfab27a2a94d
+SHA256sum: b36925594ea61c7efeb8e6582b8045a42f904c5e6c2381a19adc06214edbeaa5
+Size: 644
+Filename: epgimport-sources-dev_20250509-git5+4935e640+4935e644c5-r0_all.ipk
+Source: epgimport-sources.bb
+Description: enigma2 sources and channels for the EPG importer - Development files
+OE: epgimport-sources
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: epgimport-sources
+Version: 20250509-git5+4935e640+4935e644c5-r0
+Provides: epgimport-rytec
+Replaces: epgimport-rytec
+Conflicts: epgimport-rytec
 Section: base
 Architecture: all
 Maintainer: oe-alliance
-MD5Sum: 5782c8cbf570ca872fcf36132bae87ff
-SHA256sum: 224d90151b362e545a1c01dad25c1ffb3b21c1bceda0e2a3c6a02406dfddda46
-Size: 4188
-Filename: epgimport-rytec_20250331-r0_all.ipk
-Source: epgimport-rytec.bb
-Description: Rytec's sources and channels for the EPG importer
-OE: epgimport-rytec
+MD5Sum: a0c7ade2d3e9b92f9280c178f0c92741
+SHA256sum: 2f24148cc8d4f529a04254a25b8d3377bf32cfaf910064591cbcffa11bc9163d
+Size: 4246
+Filename: epgimport-sources_20250509-git5+4935e640+4935e644c5-r0_all.ipk
+Source: epgimport-sources.bb
+Description: enigma2 sources and channels for the EPG importer
+OE: epgimport-sources
 HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
 Priority: optional
@@ -5418,15 +5455,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: iso-codes-dbg
-Version: 4.17.0-r0
+Version: 4.18.0-r0
 Section: devel
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: f04079383c1a1638614b1f9fd83bf4ab
-SHA256sum: fe84080ca733cd6276d0cb5ca99425a02246b53161ad4eabc693d3aba7ff868d
-Size: 708
-Filename: iso-codes-dbg_4.17.0-r0_all.ipk
-Source: iso-codes_4.17.0.bb
+MD5Sum: d9562080f3a019ff06917ec099381749
+SHA256sum: ccd0f030a9473e0fe8231a5908ec63f012c5cf80103042861b905a07c300e8d7
+Size: 710
+Filename: iso-codes-dbg_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
 Description: ISO language, territory, currency, script codes and their translations - Debugging files
 OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
@@ -5434,16 +5471,16 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: iso-codes-dev
-Version: 4.17.0-r0
-Recommends: iso-codes (= 4.17.0-r0)
+Version: 4.18.0-r0
+Recommends: iso-codes (= 4.18.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 29a31e526503e5a24abefc3d121bbeb8
-SHA256sum: 6edae14d37bf145f9299263583aa56f377f7ef6d19f74adfd49b02d12c7d12a9
-Size: 996
-Filename: iso-codes-dev_4.17.0-r0_all.ipk
-Source: iso-codes_4.17.0.bb
+MD5Sum: 10961e5e54491c65a8e90acb59c289b4
+SHA256sum: 0e4644f77ac0d906348dbb3db9b7842bb91b4c455e7ff8a782a1bf558d0c03da
+Size: 998
+Filename: iso-codes-dev_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
 Description: ISO language, territory, currency, script codes and their translations - Development files
 OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
@@ -5451,15 +5488,15 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: iso-codes-locale
-Version: 4.17.0-r0
+Version: 4.18.0-r0
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 2470ceed1c286169f5545cf1df8090d2
-SHA256sum: 2a8664be6f9f62932de60fa175ebaed8df09b9f3dd475706f7c9ee4d9281d833
-Size: 5252420
-Filename: iso-codes-locale_4.17.0-r0_all.ipk
-Source: iso-codes_4.17.0.bb
+MD5Sum: f1e11fe97b63baf6d5f14ca77278cbaa
+SHA256sum: 3628744f7c6c40986567f61688bba2714f5da57ecb915c7f88704766d92704e3
+Size: 5496714
+Filename: iso-codes-locale_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
 Description: ISO language, territory, currency, script codes and their translations
 OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
@@ -5467,15 +5504,15 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: iso-codes
-Version: 4.17.0-r0
+Version: 4.18.0-r0
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: a87539b4e989a00d570f3d15a9368b14
-SHA256sum: 679851f70b1571388933dd216d79d43beabf39558b1291793feda9beac4ff571
-Size: 366992
-Filename: iso-codes_4.17.0-r0_all.ipk
-Source: iso-codes_4.17.0.bb
+MD5Sum: d150d7aae38b95513edf3fe4307b6d0c
+SHA256sum: bab50d9b0d4c0316c3efd2d85cdf4e52de73c81c4aa6dfd2e2357631fe9c19f0
+Size: 366938
+Filename: iso-codes_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
 Description: ISO language, territory, currency, script codes and their translations
 OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
@@ -5818,13 +5855,13 @@ Version: 5.5.1-r31
 Depends: bzip2, enigma-info, enigma2-skindefault, ffmpeg, libcrypto-compat-0.9.7, mtd-utils, mtd-utils-ubifs, ofgwrite, procps, python3-compression, python3-process, vsftpd, zip
 Replaces: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
 Conflicts: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
-Recommends: enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-e2iplayer, enigma2-plugin-extensions-e2iplayer-deps, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-obh, enigma2-plugin-systemplugins-serviceapp, enigma2-plugin-systemplugins-videoenhancement, eplayer5, exteplayer3, openbh-picon-feed-opkg-conf
+Recommends: enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-e2iplayer, enigma2-plugin-extensions-e2iplayer-deps, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openwebif-themes, enigma2-plugin-extensions-openwebif-vxg, enigma2-plugin-extensions-openwebif-webtv, enigma2-plugin-extensions-youtube, enigma2-plugin-skins-e2-darkos, enigma2-plugin-systemplugins-aboutboxbranding, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-obh, enigma2-plugin-systemplugins-serviceapp, enigma2-plugin-systemplugins-videoenhancement, eplayer5, exteplayer3, openbh-extra-feed-opkg-conf, openbh-picon-feed-opkg-conf
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: a4c0bfc00fb5c2e276813c9537728d11
-SHA256sum: 2bb29ff5b3fbd7d6232a170892189766dd7957b084eb6b3d17b531145061ff9a
-Size: 796
+MD5Sum: 5f143dafe3e319a5815689b5349044ff
+SHA256sum: 8587acaa5df0e722f1efcc7041f40beaf8eecda7fda3c9fb948f19adab26efcf
+Size: 856
 Filename: openbh-enigma2_5.5.1-r31_all.ipk
 Source: openbh-enigma2.bb
 Description: OpenBh Enigma2
@@ -5832,6 +5869,22 @@ OE: openbh-enigma2
 HomePage: https://www.openbh.net
 License: MIT
 Priority: optional
+
+Package: openbh-extra-feed-opkg-conf
+Version: 5.5.1-r1
+Section: base
+Architecture: all
+Maintainer: OpenBh Team
+MD5Sum: 7fa4033d6c4cab35bbe37a777d4c2810
+SHA256sum: 51091aad2e198a5be52bb14727a1e558284abb8e1db33e9d1a6922a60ab9dfac
+Size: 662
+Filename: openbh-extra-feed-opkg-conf_5.5.1-r1_all.ipk
+Source: openbh-extra-feed-opkg-conf.bb
+Description: OpenBh extra feed opkg conf
+OE: openbh-extra-feed-opkg-conf
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: required
 
 Package: openbh-picon-feed-opkg-conf
 Version: 5.5.1-r1
@@ -6165,14 +6218,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 1.0+git983+3c3fe3b0+3c3fe3b8cf-r0
+Version: 1.0+git985+bb2327b0+bb2327b174-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 7b43c1218a342584637f218d48348abc
-SHA256sum: 66dd669480fc615d26196aba4b26e1f02ab0c10f0e800d132c55033221869728
+MD5Sum: 1efd6bfaa0eb4bea4f79c14853c5177f
+SHA256sum: 4dc0dbb2cb5bab4defe3975cbb4abfc03ad98ceb95a14221cfd5a2a46fa72547
 Size: 594
-Filename: tuxbox-common-dbg_1.0+git983+3c3fe3b0+3c3fe3b8cf-r0_all.ipk
+Filename: tuxbox-common-dbg_1.0+git985+bb2327b0+bb2327b174-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Debugging files
 OE: tuxbox-common
@@ -6181,15 +6234,15 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 1.0+git983+3c3fe3b0+3c3fe3b8cf-r0
-Recommends: tuxbox-common (= 1.0+git983+3c3fe3b0+3c3fe3b8cf-r0)
+Version: 1.0+git985+bb2327b0+bb2327b174-r0
+Recommends: tuxbox-common (= 1.0+git985+bb2327b0+bb2327b174-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 243d39ab915968d5a536adcf4e05a4da
-SHA256sum: 8ff3bce8c309b0798cd9cd624bce3296e2a656dbca8dac6ed6184c546802b396
+MD5Sum: 835f3112e63527c287bb5e71911f4a57
+SHA256sum: 0249f4ed3e89f9ca72df918bfd02d701be5806ec3c9bd1cb2c9d82a15f534f33
 Size: 626
-Filename: tuxbox-common-dev_1.0+git983+3c3fe3b0+3c3fe3b8cf-r0_all.ipk
+Filename: tuxbox-common-dev_1.0+git985+bb2327b0+bb2327b174-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Development files
 OE: tuxbox-common
@@ -6198,14 +6251,14 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common
-Version: 1.0+git983+3c3fe3b0+3c3fe3b8cf-r0
+Version: 1.0+git985+bb2327b0+bb2327b174-r0
 Section: base
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 7629098c7f7be85063a428cbfd2cbcee
-SHA256sum: 0887216e838567b8b647457d14eaea8f68c13bc5f8717861a68c55ddfcc52c8d
-Size: 79038
-Filename: tuxbox-common_1.0+git983+3c3fe3b0+3c3fe3b8cf-r0_all.ipk
+MD5Sum: c1ff2528d804a608680fd77071250ca8
+SHA256sum: f9ba58b0871d699bdc1ee80d88b2edd6ac5d184b2c1503cef9929bfde229f057
+Size: 79032
+Filename: tuxbox-common_1.0+git985+bb2327b0+bb2327b174-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files
 OE: tuxbox-common
