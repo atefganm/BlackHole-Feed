@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+vuuno4kse/chromium-browser-vuuno4kse_1.3-20201020_r1-r1_vuuno4kse.ipk filter=lfs diff=lfs merge=lfs -text
