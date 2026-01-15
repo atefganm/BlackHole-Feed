@@ -264,13 +264,13 @@ Priority: optional
 
 Package: dvb-usb-drivers-meta-dev
 Version: 1.0-r0
-Recommends: dvb-usb-drivers-meta (= 1.0-r0), enigma2-plugin-drivers-atsc-950q-usb-hauppauge-dev, enigma2-plugin-drivers-atsc-955q-usb-hauppauge-dev, enigma2-plugin-drivers-atsc-usb-hauppauge-dev, enigma2-plugin-drivers-ct2-dvb-usb-dualhd-dev, enigma2-plugin-drivers-ct2-dvb-usb-geniatech-t230-dev, enigma2-plugin-drivers-ct2-dvb-usb-pctv292e-dev, enigma2-plugin-drivers-ct2-dvb-usb-t330-dev, enigma2-plugin-drivers-dvb-usb-a867-dev, enigma2-plugin-drivers-dvb-usb-af9015-dev, enigma2-plugin-drivers-dvb-usb-af9035-dev, enigma2-plugin-drivers-dvb-usb-as102-dev, enigma2-plugin-drivers-dvb-usb-dib0700-dev, enigma2-plugin-drivers-dvb-usb-dtt200u-dev, enigma2-plugin-drivers-dvb-usb-dvbsky-classic-dev, enigma2-plugin-drivers-dvb-usb-dw2102-dev, enigma2-plugin-drivers-dvb-usb-em28xx-dev, enigma2-plugin-drivers-dvb-usb-it913x-dev, enigma2-plugin-drivers-dvb-usb-mn8847x-dev, enigma2-plugin-drivers-dvb-usb-opticombo-dev, enigma2-plugin-drivers-dvb-usb-pctv452e-dev, enigma2-plugin-drivers-dvb-usb-rtl2832-dev, enigma2-plugin-drivers-dvb-usb-siano-dev, enigma2-plugin-drivers-dvb-usb-tbs-dev, enigma2-plugin-drivers-dvb-usb-tbs5520-dev, enigma2-plugin-drivers-s2-dvb-usb-s960-dev
+Recommends: dvb-usb-drivers-meta (= 1.0-r0), enigma2-plugin-drivers-atsc-950q-usb-hauppauge-dev, enigma2-plugin-drivers-atsc-955q-usb-hauppauge-dev, enigma2-plugin-drivers-atsc-usb-hauppauge-dev, enigma2-plugin-drivers-ct2-dvb-usb-dualhd-dev, enigma2-plugin-drivers-ct2-dvb-usb-geniatech-t230-dev, enigma2-plugin-drivers-ct2-dvb-usb-pctv292e-dev, enigma2-plugin-drivers-ct2-dvb-usb-t330-dev, enigma2-plugin-drivers-dvb-usb-af9015-dev, enigma2-plugin-drivers-dvb-usb-af9035-dev, enigma2-plugin-drivers-dvb-usb-as102-dev, enigma2-plugin-drivers-dvb-usb-dib0700-dev, enigma2-plugin-drivers-dvb-usb-dtt200u-dev, enigma2-plugin-drivers-dvb-usb-dvbsky-classic-dev, enigma2-plugin-drivers-dvb-usb-dw2102-dev, enigma2-plugin-drivers-dvb-usb-em28xx-dev, enigma2-plugin-drivers-dvb-usb-it913x-dev, enigma2-plugin-drivers-dvb-usb-mn8847x-dev, enigma2-plugin-drivers-dvb-usb-opticombo-dev, enigma2-plugin-drivers-dvb-usb-pctv452e-dev, enigma2-plugin-drivers-dvb-usb-rtl2832-dev, enigma2-plugin-drivers-dvb-usb-siano-dev, enigma2-plugin-drivers-dvb-usb-tbs-dev, enigma2-plugin-drivers-dvb-usb-tbs5520-dev, enigma2-plugin-drivers-dvb-usb-turbo-dev, enigma2-plugin-drivers-dvb-usb-turbo2-dev, enigma2-plugin-drivers-s2-dvb-usb-s960-dev
 Section: devel
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: f636c4bcf929b7cd774b59702c858f1e
-SHA256sum: e6d0e9915cd345af52855a335c3413da626c525fda48d88c17603a1c098847c1
-Size: 804
+MD5Sum: 2b3c82a33b172c06f57cadb48b8b768d
+SHA256sum: 755f36d6a35128a171b01d0e59f48ecb3525e4dcf52f89da8b704a3ac511da3a
+Size: 810
 Filename: dvb-usb-drivers-meta-dev_1.0-r0_all.ipk
 Source: dvb-usb-drivers-meta.bb
 Description: meta file for USB DVB drivers - Development files
@@ -695,56 +695,6 @@ HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-drivers-dvb-usb-a867-dbg
-Version: 1.0-r0
-Section: devel
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: 39ed133f6422662b207e7099a2878cc6
-SHA256sum: ad079f7611a03e664d209ee4dfb83d4da0587550bad2b28e2244f43c2ace4186
-Size: 600
-Filename: enigma2-plugin-drivers-dvb-usb-a867-dbg_1.0-r0_all.ipk
-Source: enigma2-plugin-drivers-dvb-usb-a867.bb
-Description: USB DVB driver for Afatech 867 chipset - Debugging files
-OE: enigma2-plugin-drivers-dvb-usb-a867
-HomePage: https://www.openbh.net
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-drivers-dvb-usb-a867-dev
-Version: 1.0-r0
-Recommends: enigma2-plugin-drivers-dvb-usb-a867 (= 1.0-r0)
-Section: devel
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: db1d1c477c51174dae46040cd60985a7
-SHA256sum: cf2b7baf8f4b91a4eb6d33b906b221cca2dc12822500fa74d71a76046f68cc60
-Size: 636
-Filename: enigma2-plugin-drivers-dvb-usb-a867-dev_1.0-r0_all.ipk
-Source: enigma2-plugin-drivers-dvb-usb-a867.bb
-Description: USB DVB driver for Afatech 867 chipset - Development files
-OE: enigma2-plugin-drivers-dvb-usb-a867
-HomePage: https://www.openbh.net
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-drivers-dvb-usb-a867
-Version: 1.0-r0
-Recommends: firmware-dvb-usb-af9035-02, kernel-module-dvb-usb-a867
-Section: base
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: 8c80708cba4b2689246aa458454bc238
-SHA256sum: 94d0727cc40ff17011115b8aeb794ea24aeee7563eb696d8a80ecd7b0e5cc74c
-Size: 574
-Filename: enigma2-plugin-drivers-dvb-usb-a867_1.0-r0_all.ipk
-Source: enigma2-plugin-drivers-dvb-usb-a867.bb
-Description: USB DVB driver for Afatech 867 chipset
-OE: enigma2-plugin-drivers-dvb-usb-a867
-HomePage: https://www.openbh.net
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-drivers-dvb-usb-af9015-dbg
 Version: 1.0-r0
 Section: devel
@@ -1030,13 +980,13 @@ Priority: optional
 
 Package: enigma2-plugin-drivers-dvb-usb-dvbsky-classic
 Version: 2.0-r2
-Recommends: firmware-dvb-fe-ds3000, firmware-dvb-fe-ds3xxx, firmware-dvb-fe-si2168, firmware-dvb-usb-s660, kernel-module-dvb-usb-dvbsky, kernel-module-dvb-usb-v2, kernel-module-dvbsky-m88ds3103, kernel-module-dvbsky-m88rs6000, kernel-module-m88ds3103, kernel-module-si2157, kernel-module-si2168, kernel-module-sit2fe, kernel-module-ts2020
+Recommends: dvb-sky-module-dvb-usb-dvbsky, dvb-sky-module-dvb-usb-v2-media-tree, dvb-sky-module-dvbsky-m88ds3103, dvb-sky-module-dvbsky-m88rs6000, dvb-sky-module-m88ds3103, dvb-sky-module-si2157, dvb-sky-module-si2168, dvb-sky-module-sit2fe, dvb-sky-module-ts2020, firmware-dvb-fe-ds3000, firmware-dvb-fe-ds3xxx, firmware-dvb-fe-si2168, firmware-dvb-usb-s660
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 3049763063adfe761f7ae0c66f971aaf
-SHA256sum: 1b5a27e44187ea6025c86a485d8620094f556dbcba683b6b94c0815f29fe88a2
-Size: 640
+MD5Sum: 6d7fab0a699dc4666290117cf2bb1b89
+SHA256sum: 50688e5d10408e5129d056c235d9e77891e14288d3201dba3e80a8bcf76370d8
+Size: 648
 Filename: enigma2-plugin-drivers-dvb-usb-dvbsky-classic_2.0-r2_all.ipk
 Source: enigma2-plugin-drivers-dvb-usb-dvbsky-classic.bb
 Description: USB DVB driver for DVB-SKY Family
@@ -3145,6 +3095,56 @@ HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-drivers-network-usb-rtl8822cu-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 0ca9961721c8db35e9c2ea2acb531afd
+SHA256sum: bec0af16a599ef068961935a8c3528221a7da0b679ba6b844fdb7f925881bc42
+Size: 610
+Filename: enigma2-plugin-drivers-network-usb-rtl8822cu-dbg_1.0-r1_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822cu.bb
+Description: WiFi devices for Realtek 88x2CU chipsets. - Debugging files
+OE: enigma2-plugin-drivers-network-usb-rtl8822cu
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8822cu-dev
+Version: 1.0-r1
+Recommends: enigma2-plugin-drivers-network-usb-rtl8822cu (= 1.0-r1)
+Section: devel
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 701b37583d1fffcad48036a7b7e95df3
+SHA256sum: c8637c0150a4ae6f3a2b73467b5d3f4c598cc15cdf8edbdbd0443ed95957f3e2
+Size: 646
+Filename: enigma2-plugin-drivers-network-usb-rtl8822cu-dev_1.0-r1_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822cu.bb
+Description: WiFi devices for Realtek 88x2CU chipsets. - Development files
+OE: enigma2-plugin-drivers-network-usb-rtl8822cu
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-network-usb-rtl8822cu
+Version: 1.0-r1
+Recommends: firmware-rtk8822cbtusb, rt8822cu
+Section: base
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 6511b3dec0fd3831b53c641951f7390c
+SHA256sum: 48e2775fc35a19ed1c6aa593c8da49a821aa606d0ecea72bfaf9408b4e107580
+Size: 572
+Filename: enigma2-plugin-drivers-network-usb-rtl8822cu_1.0-r1_all.ipk
+Source: enigma2-plugin-drivers-network-usb-rtl8822cu.bb
+Description: WiFi devices for Realtek 88x2CU chipsets.
+OE: enigma2-plugin-drivers-network-usb-rtl8822cu
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-drivers-network-usb-smsc75xx-dbg
 Version: 1.0-r0
 Section: devel
@@ -3626,8 +3626,8 @@ Version: 1.27-20251226-git41+13cca790+13cca794f8-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 48124876709e9d24eef571361e7dd1d9
-SHA256sum: 01125e2471bfc2492300b2f476caa98a6796488ed2b00d3720f39cdbd57906f7
+MD5Sum: a22eb5b571d9e66051e9f36da44d3398
+SHA256sum: 828ad433285714b9b5f8accc68427bdeae68240b3942453489a68a8d7001cfeb
 Size: 630
 Filename: enigma2-plugin-extensions-estalker-dbg_1.27-20251226-git41+13cca790+13cca794f8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -3643,8 +3643,8 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.27-20251226-git41+13cca790+1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 297ad6ff04a26715c766102008db73c7
-SHA256sum: 2b082e963a08e2656836ba766ca44c2ee51d378a7caf376e634fb3ec4dab63b2
+MD5Sum: 71317cfffd00130f00d416a95b315f88
+SHA256sum: 80a68cfa1853b90f3b3aac24ce3e758108b4d5518d34688e2321d30e55279526
 Size: 728
 Filename: enigma2-plugin-extensions-estalker-dev_1.27-20251226-git41+13cca790+13cca794f8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -3659,9 +3659,9 @@ Version: 1.27-20251226-git41+13cca790+13cca794f8-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a3de37b3778598f51f79befcbe70c159
-SHA256sum: cb512571242f5f5f0da99cc1d447a79f2125674eb4036fe527c96df05644ab1d
-Size: 87624
+MD5Sum: 0a5915b912994bc9ceaa7a19a250dc67
+SHA256sum: 18caa97a2de110f52bbd742ee386ec54424a29f926eb53a4be8b519e07b68eba
+Size: 87628
 Filename: enigma2-plugin-extensions-estalker-src_1.27-20251226-git41+13cca790+13cca794f8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -3676,9 +3676,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a7cd1d1ea262f751f99959dba90b7017
-SHA256sum: 6dc5552bac88c6a67ba361b6ef08cbfc0cc1ebe5b5dab780a39e495ec6a33828
-Size: 2702284
+MD5Sum: 5cb9e37d3554bb0f89b521b008d95eef
+SHA256sum: e0318ed9561887b6f0ffb955d1b7d92e42dfcf269e5b6aedd1de1a6d2e0967f7
+Size: 2702348
 Filename: enigma2-plugin-extensions-estalker_1.27-20251226-git41+13cca790+13cca794f8-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -5652,6 +5652,55 @@ HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: hicolor-icon-theme-dbg
+Version: 0.18-r0
+Section: devel
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 39ee7038c3653e30d761f168ae822247
+SHA256sum: a554f0884bb2be9f690f54102adafce289432ded61b540d9f17e2d7923f54e69
+Size: 658
+Filename: hicolor-icon-theme-dbg_0.18-r0_all.ipk
+Source: hicolor-icon-theme_0.18.bb
+Description: Default icon theme that all icon themes automatically inherit from - Debugging files
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
+Package: hicolor-icon-theme-dev
+Version: 0.18-r0
+Recommends: hicolor-icon-theme (= 0.18-r0)
+Section: devel
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 1d1885fe0c538f9d890cf885fdaf2610
+SHA256sum: f921dcc648162b4069f0a81f4c307ada9f7ef2e9fe6f66f3317871426d362244
+Size: 898
+Filename: hicolor-icon-theme-dev_0.18-r0_all.ipk
+Source: hicolor-icon-theme_0.18.bb
+Description: Default icon theme that all icon themes automatically inherit from - Development files
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
+Package: hicolor-icon-theme
+Version: 0.18-r0
+Section: base
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 578ca11217f1bfbbcdcdcaf072ba4a74
+SHA256sum: 9c840716dc9964dd372ee3f1a04802588d8f3a4d3b3a91d7222bad6f12fdf3a8
+Size: 11334
+Filename: hicolor-icon-theme_0.18-r0_all.ipk
+Source: hicolor-icon-theme_0.18.bb
+Description: Default icon theme that all icon themes automatically inherit from
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
 Package: iso-codes-dbg
 Version: 4.18.0-r0
 Section: devel
@@ -5715,6 +5764,23 @@ Description: ISO language, territory, currency, script codes and their translati
 OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-only
+Priority: optional
+
+Package: liberation-fonts
+Version: 1:2.1.5-r0
+Depends: fontconfig-utils
+Section: x11/fonts
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: f2e9ce1cb401305141067a4a9d9163d6
+SHA256sum: b9b5b38c98760c120e7343703aa99248c186320e553cba86e6331b032a56f06d
+Size: 1927192
+Filename: liberation-fonts_2.1.5-r0_all.ipk
+Source: liberation-fonts_2.1.5.bb
+Description: Liberation(tm) Fonts
+OE: liberation-fonts
+HomePage: https://github.com/liberationfonts/liberation-fonts
+License: OFL-1.1
 Priority: optional
 
 Package: linux-firmware-8821cu-dbg
@@ -6071,13 +6137,13 @@ Version: 5.6-r32
 Depends: bzip2, enigma-info, enigma2-skindefault, ffmpeg, libcrypto-compat-0.9.7, mtd-utils, mtd-utils-ubifs, ofgwrite, procps, python3-compression, python3-process, vsftpd, zip
 Replaces: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
 Conflicts: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
-Recommends: enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-e2iplayer, enigma2-plugin-extensions-e2iplayer-deps, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openbhvip, enigma2-plugin-skins-e2-darkos, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-obh, enigma2-plugin-systemplugins-serviceapp, enigma2-plugin-systemplugins-videoenhancement, eplayer5, exteplayer3, openbh-extra-feed-opkg-conf, openbh-picon-feed-opkg-conf
+Recommends: enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-e2iplayer, enigma2-plugin-extensions-e2iplayer-deps, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openbhvip, enigma2-plugin-skins-e2-darkos, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-obh, enigma2-plugin-systemplugins-quadpip, enigma2-plugin-systemplugins-serviceapp, enigma2-plugin-systemplugins-videoenhancement, eplayer5, exteplayer3, openbh-extra-feed-opkg-conf, openbh-picon-feed-opkg-conf
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 3ab624c9a830677e24bc50f8f5899d7c
-SHA256sum: 7f8b9e2db91fbd64112c880abd9ce317953d0de2553da57ba6e0ed97d97a3cf6
-Size: 818
+MD5Sum: e23e2e965ea1c0fd41067a70ea0456d6
+SHA256sum: b313c8eb6ae55d52e35e803d6e72ad9f522ab815dde6eecc4aa152e944290555
+Size: 828
 Filename: openbh-enigma2_5.6-r32_all.ipk
 Source: openbh-enigma2.bb
 Description: OpenBh Enigma2
