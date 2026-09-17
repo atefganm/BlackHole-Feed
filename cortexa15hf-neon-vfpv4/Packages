@@ -2340,8 +2340,8 @@ Version: 1.0-r21
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenBh Team
-MD5Sum: 09c2ed5466f93a8b76fbd959eb06fe3e
-SHA256sum: f4ccfad5fb6d7d83abc7328e37b9d30471beab3b00e1cdb38981e176841d64e2
+MD5Sum: c05684f8b2037093e5edbc4a542860e9
+SHA256sum: 43e82585b1c1eeec5cc5cfded7fbe822511ae4993fd5a6929a7ffc8cbd00eb40
 Size: 2124
 Filename: blackhole-base_1.0-r21_cortexa15hf-neon-vfpv4.ipk
 Source: blackhole-base.bb
@@ -4550,86 +4550,86 @@ HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: dreambox-dvb-modules-dm900-dbg
-Version: 3.14-1.17-20200226-r0.alsa1
+Package: dreambox-dvb-modules-dm920-dbg
+Version: 3.14-1.17-20200321-r0.alsa1
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenBh
-MD5Sum: 683d33c5468e173d344c99775b2b38a4
-SHA256sum: bfd14bde220c038fe46162e33dcef36d7e1bc2650fd9a73a97b994320b102474
+MD5Sum: dafe6b15ab7d98508af9e4f028c23830
+SHA256sum: ce3a2f682e9afb34a924a3d296d2c07392f9fd6cc2f73680255d7506e357215e
 Size: 622
-Filename: dreambox-dvb-modules-dm900-dbg_3.14-1.17-20200226-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
-Source: dreambox-dvb-modules-dm900_3.14-1.17-20200226.bb
+Filename: dreambox-dvb-modules-dm920-dbg_3.14-1.17-20200321-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
+Source: dreambox-dvb-modules-dm920_3.14-1.17-20200321.bb
 Description: Hardware drivers for Dreambox - Debugging files
-OE: dreambox-dvb-modules-dm900
+OE: dreambox-dvb-modules-dm920
 HomePage: https://www.openbh.net
 License: LicenseRef-Proprietary
 Priority: required
 
-Package: dreambox-dvb-modules-dm900-dev
-Version: 3.14-1.17-20200226-r0.alsa1
-Recommends: dreambox-dvb-modules-dm900 (= 3.14-1.17-20200226-r0.alsa1), dreambox-dvb-modules-dm900-stb-core-dev
+Package: dreambox-dvb-modules-dm920-dev
+Version: 3.14-1.17-20200321-r0.alsa1
+Recommends: dreambox-dvb-modules-dm920 (= 3.14-1.17-20200321-r0.alsa1), dreambox-dvb-modules-dm920-stb-core-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenBh
-MD5Sum: a2ad27365015b359b57c642b423bb87c
-SHA256sum: 431e0837fe772d8905c6b7adc0e6b0656c5cce446622bbc25e5d2f9361fa97fa
-Size: 664
-Filename: dreambox-dvb-modules-dm900-dev_3.14-1.17-20200226-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
-Source: dreambox-dvb-modules-dm900_3.14-1.17-20200226.bb
+MD5Sum: 62c861b0c44b4b0e74993b5baecb4760
+SHA256sum: 7a9f1a5eae4e5c1bf59eba102b31e88ecd3ea3bcc4cdf2612f4618f44d7b202e
+Size: 666
+Filename: dreambox-dvb-modules-dm920-dev_3.14-1.17-20200321-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
+Source: dreambox-dvb-modules-dm920_3.14-1.17-20200321.bb
 Description: Hardware drivers for Dreambox - Development files
-OE: dreambox-dvb-modules-dm900
+OE: dreambox-dvb-modules-dm920
 HomePage: https://www.openbh.net
 License: LicenseRef-Proprietary
 Priority: required
 
-Package: dreambox-dvb-modules-dm900-lcd
-Version: 3.14-1.17-20200226-r0.alsa1
-Depends: dreambox-dvb-modules-dm900-stb-core
+Package: dreambox-dvb-modules-dm920-lcd
+Version: 3.14-1.17-20200321-r0.alsa1
+Depends: dreambox-dvb-modules-dm920-stb-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenBh
-MD5Sum: c079ddf7d1d51f68d724f41e6375f9b5
-SHA256sum: 0960f431dfefeb299bc9942861b023899a2709213331321b92edb90abb3cdaa4
-Size: 9814
-Filename: dreambox-dvb-modules-dm900-lcd_3.14-1.17-20200226-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
-Source: dreambox-dvb-modules-dm900_3.14-1.17-20200226.bb
+MD5Sum: 5574e4354df74bb509ab2c95456b7f5a
+SHA256sum: 196a0989ed4981bf6a5f7adafc75fe35168649f5e358adccbb90004cca798d82
+Size: 10118
+Filename: dreambox-dvb-modules-dm920-lcd_3.14-1.17-20200321-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
+Source: dreambox-dvb-modules-dm920_3.14-1.17-20200321.bb
 Description: Hardware drivers for Dreambox
-OE: dreambox-dvb-modules-dm900
+OE: dreambox-dvb-modules-dm920
 HomePage: https://www.openbh.net
 License: LicenseRef-Proprietary
 Priority: required
 
-Package: dreambox-dvb-modules-dm900-stb-core
-Version: 3.14-1.17-20200226-r0.alsa1
+Package: dreambox-dvb-modules-dm920-stb-core
+Version: 3.14-1.17-20200321-r0.alsa1
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenBh
-MD5Sum: bb5a0eafadd0e438ef4f596e62edddff
-SHA256sum: 1ce9a8a2ccb198f75e8c4d1c9e1300d0c25d50828d95adf22b0e07f0dc83d16f
-Size: 14498
-Filename: dreambox-dvb-modules-dm900-stb-core_3.14-1.17-20200226-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
-Source: dreambox-dvb-modules-dm900_3.14-1.17-20200226.bb
+MD5Sum: 94e97ba42119132cc9942f5f09ef97b6
+SHA256sum: 7951890efce0da7f250342a137d30e73d8ee57e66554979551d8b5de50f792d1
+Size: 14502
+Filename: dreambox-dvb-modules-dm920-stb-core_3.14-1.17-20200321-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
+Source: dreambox-dvb-modules-dm920_3.14-1.17-20200321.bb
 Description: Hardware drivers for Dreambox
-OE: dreambox-dvb-modules-dm900
+OE: dreambox-dvb-modules-dm920
 HomePage: https://www.openbh.net
 License: LicenseRef-Proprietary
 Priority: required
 
-Package: dreambox-dvb-modules-dm900
-Version: 3.14-1.17-20200226-r0.alsa1
-Depends: dreambox-dvb-modules-dm900-stb-core
-Recommends: dreambox-dvb-modules-dm900-lcd
+Package: dreambox-dvb-modules-dm920
+Version: 3.14-1.17-20200321-r0.alsa1
+Depends: dreambox-dvb-modules-dm920-stb-core
+Recommends: dreambox-dvb-modules-dm920-lcd
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenBh
-MD5Sum: 55bf0606b59be81808c6728a82ba926a
-SHA256sum: b0e6459413b748eb70ccb43d62aeb45930f00e961f4f04ebb1296f6b3befc141
-Size: 3662560
-Filename: dreambox-dvb-modules-dm900_3.14-1.17-20200226-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
-Source: dreambox-dvb-modules-dm900_3.14-1.17-20200226.bb
+MD5Sum: e27f87afd8530789cddad0b9a1c7f561
+SHA256sum: aef07d1420e39780514a016d5ecda0a28f708a555684d09c4e72c9313bed50f7
+Size: 3791620
+Filename: dreambox-dvb-modules-dm920_3.14-1.17-20200321-r0.alsa1_cortexa15hf-neon-vfpv4.ipk
+Source: dreambox-dvb-modules-dm920_3.14-1.17-20200321.bb
 Description: Hardware drivers for Dreambox
-OE: dreambox-dvb-modules-dm900
+OE: dreambox-dvb-modules-dm920
 HomePage: https://www.openbh.net
 License: LicenseRef-Proprietary
 Priority: required
