@@ -646,6 +646,56 @@ HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-drivers-dvb-usb-a867-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 39ed133f6422662b207e7099a2878cc6
+SHA256sum: ad079f7611a03e664d209ee4dfb83d4da0587550bad2b28e2244f43c2ace4186
+Size: 600
+Filename: enigma2-plugin-drivers-dvb-usb-a867-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-a867.bb
+Description: USB DVB driver for Afatech 867 chipset - Debugging files
+OE: enigma2-plugin-drivers-dvb-usb-a867
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-a867-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-drivers-dvb-usb-a867 (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: db1d1c477c51174dae46040cd60985a7
+SHA256sum: cf2b7baf8f4b91a4eb6d33b906b221cca2dc12822500fa74d71a76046f68cc60
+Size: 636
+Filename: enigma2-plugin-drivers-dvb-usb-a867-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-a867.bb
+Description: USB DVB driver for Afatech 867 chipset - Development files
+OE: enigma2-plugin-drivers-dvb-usb-a867
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-a867
+Version: 1.0-r0
+Recommends: firmware-dvb-usb-af9035-02, kernel-module-dvb-usb-a867
+Section: base
+Architecture: all
+Maintainer: OpenBh
+MD5Sum: 8c80708cba4b2689246aa458454bc238
+SHA256sum: 94d0727cc40ff17011115b8aeb794ea24aeee7563eb696d8a80ecd7b0e5cc74c
+Size: 574
+Filename: enigma2-plugin-drivers-dvb-usb-a867_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-a867.bb
+Description: USB DVB driver for Afatech 867 chipset
+OE: enigma2-plugin-drivers-dvb-usb-a867
+HomePage: https://www.openbh.net
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-drivers-dvb-usb-af9015-dbg
 Version: 1.0-r0
 Section: devel
@@ -931,13 +981,13 @@ Priority: optional
 
 Package: enigma2-plugin-drivers-dvb-usb-dvbsky-classic
 Version: 2.0-r2
-Recommends: firmware-dvb-fe-ds3000, firmware-dvb-fe-ds3xxx, firmware-dvb-fe-si2168, firmware-dvb-usb-s660, kernel-module-dvb-usb-dvbsky, kernel-module-dvb-usb-v2-media-tree, kernel-module-dvbsky-m88ds3103, kernel-module-dvbsky-m88rs6000, kernel-module-m88ds3103, kernel-module-si2157, kernel-module-si2168, kernel-module-sit2fe, kernel-module-ts2020
+Recommends: firmware-dvb-fe-ds3000, firmware-dvb-fe-ds3xxx, firmware-dvb-fe-si2168, firmware-dvb-usb-s660, kernel-module-dvb-usb-dvbsky, kernel-module-dvb-usb-v2, kernel-module-dvbsky-m88ds3103, kernel-module-dvbsky-m88rs6000, kernel-module-m88ds3103, kernel-module-si2157, kernel-module-si2168, kernel-module-sit2fe, kernel-module-ts2020
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 5606323f884d33eb7482da2de0a4619c
-SHA256sum: 6b46574608381bbe84e471f516b8259037a20a1121c5a1ed2a607010266520e0
-Size: 646
+MD5Sum: 3049763063adfe761f7ae0c66f971aaf
+SHA256sum: 1b5a27e44187ea6025c86a485d8620094f556dbcba683b6b94c0815f29fe88a2
+Size: 640
 Filename: enigma2-plugin-drivers-dvb-usb-dvbsky-classic_2.0-r2_all.ipk
 Source: enigma2-plugin-drivers-dvb-usb-dvbsky-classic.bb
 Description: USB DVB driver for DVB-SKY Family
@@ -2731,13 +2781,13 @@ Priority: optional
 
 Package: enigma2-plugin-drivers-network-usb-rt3070
 Version: 1.0-r1
-Recommends: firmware-rt3070, rt3070
+Recommends: firmware-rt3070, kernel-module-rt2800usb
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 8cfdd00105fe24d1b8cd42ec37ba1411
-SHA256sum: a064bd1440530d211276f4c976a95dbd8d149e3f1d885206c9fa02bbeff80ee1
-Size: 580
+MD5Sum: f8c7d4f42f0a631c5e01bfd9fd44a634
+SHA256sum: a06c3e501b69f6305362b3bc92e8c908614f618ea96b0d921d88a5d3bd1f10e2
+Size: 596
 Filename: enigma2-plugin-drivers-network-usb-rt3070_1.0-r1_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rt3070.bb
 Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks
@@ -2781,13 +2831,13 @@ Priority: optional
 
 Package: enigma2-plugin-drivers-network-usb-rt3573
 Version: 1.0-r1
-Recommends: rt3573
+Recommends: kernel-module-rt2800usb
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: 59b37b7cba7551da66b09fd650d4675d
-SHA256sum: d45aa6976581914aaa19e66bf75442f21bac716d28e449890a7bd0d5d9df27bf
-Size: 554
+MD5Sum: 03930a3beb6bfa0bd5351edbe5883132
+SHA256sum: 82a8b698bda5598286b826b66892a4de7dbf64615809b3a4437d728773a6cafe
+Size: 572
 Filename: enigma2-plugin-drivers-network-usb-rt3573_1.0-r1_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rt3573.bb
 Description: rt3573 802.11a/b/g/n 2.4/5 GHz USB Single Chip
@@ -2831,13 +2881,13 @@ Priority: optional
 
 Package: enigma2-plugin-drivers-network-usb-rt5572
 Version: 1.0-r2
-Recommends: rt5572
+Recommends: kernel-module-rt2800usb
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: a79f99943003441ce7073e8574a7a279
-SHA256sum: b186f9cdc6420d5222e44553b3b7c0b059e1ba1bb98ab3093ba701eafed35b9f
-Size: 556
+MD5Sum: d8a4a819fd55ae3bc507396f2a40dbd9
+SHA256sum: 00394718491944549d01df974d7167f7ba845352eaf10f850e7cf394129ee649
+Size: 572
 Filename: enigma2-plugin-drivers-network-usb-rt5572_1.0-r2_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rt5572.bb
 Description: 802.11a/b/g/n 2T2R 2.4/5 GHz USB Single Chip
@@ -2992,56 +3042,6 @@ Filename: enigma2-plugin-drivers-network-usb-rtl8152_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8152.bb
 Description: Realtek RTL8152/RTL8153 USB 3.0/2.0 Gigabit Ethernet Network Adapter
 OE: enigma2-plugin-drivers-network-usb-rtl8152
-HomePage: https://www.openbh.net
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-drivers-network-usb-rtl8156-dbg
-Version: 1.0-r0
-Section: devel
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: 918aa76014f367676071943325cf6f71
-SHA256sum: 874a7e481827cae41b9d3459111ee2488cafd4fe6f15e0f733e67b36e84a8a43
-Size: 636
-Filename: enigma2-plugin-drivers-network-usb-rtl8156-dbg_1.0-r0_all.ipk
-Source: enigma2-plugin-drivers-network-usb-rtl8156.bb
-Description: Realtek RTL8152/RTL8153/RTL8156 USB 3.0 10/100/1GB/2.5GB Ethernet Network Adapter - Debugging files
-OE: enigma2-plugin-drivers-network-usb-rtl8156
-HomePage: https://www.openbh.net
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-drivers-network-usb-rtl8156-dev
-Version: 1.0-r0
-Recommends: enigma2-plugin-drivers-network-usb-rtl8156 (= 1.0-r0)
-Section: devel
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: 843843cbd9de53ba5ce38f9f6e0ee77a
-SHA256sum: 35ba5a66088e146124fb9d290ff69e10b16b5068e19f305bb57acc0af3aa9279
-Size: 672
-Filename: enigma2-plugin-drivers-network-usb-rtl8156-dev_1.0-r0_all.ipk
-Source: enigma2-plugin-drivers-network-usb-rtl8156.bb
-Description: Realtek RTL8152/RTL8153/RTL8156 USB 3.0 10/100/1GB/2.5GB Ethernet Network Adapter - Development files
-OE: enigma2-plugin-drivers-network-usb-rtl8156
-HomePage: https://www.openbh.net
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-drivers-network-usb-rtl8156
-Version: 1.0-r0
-Recommends: kernel-module-r8156, kernel-module-usbnet
-Section: base
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: e2e1069195b4e5fdd0d492097d474651
-SHA256sum: 75eb0a5000c7d62dd989ec423e771b96cb02a56a49b201bf7565fae25cf6473d
-Size: 600
-Filename: enigma2-plugin-drivers-network-usb-rtl8156_1.0-r0_all.ipk
-Source: enigma2-plugin-drivers-network-usb-rtl8156.bb
-Description: Realtek RTL8152/RTL8153/RTL8156 USB 3.0 10/100/1GB/2.5GB Ethernet Network Adapter
-OE: enigma2-plugin-drivers-network-usb-rtl8156
 HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
 Priority: optional
@@ -3231,13 +3231,13 @@ Priority: optional
 
 Package: enigma2-plugin-drivers-network-usb-rtl8192cu
 Version: 1.0-r2
-Recommends: firmware-rtl8192cu, firmware-rtl8192cufw, rtl8192cu
+Recommends: firmware-rtl8192cu, firmware-rtl8192cufw, kernel-module-rtl8192cu
 Section: base
 Architecture: all
 Maintainer: OpenBh
-MD5Sum: ee0cf368cc06a1ca4301fecb42ea95f1
-SHA256sum: e40ba3de1a2c9b61c73e255624a9c610c5f3b53e3c8a81f1021ac483d2d4fc50
-Size: 594
+MD5Sum: 47ff9c064a9c0328589b9339b0fd5074
+SHA256sum: bc9458de5c9723be845e80d681d33802087224fd9a47c915a41c38629ac77bc1
+Size: 602
 Filename: enigma2-plugin-drivers-network-usb-rtl8192cu_1.0-r2_all.ipk
 Source: enigma2-plugin-drivers-network-usb-rtl8192cu.bb
 Description: Single-Chip IEEE 802.11b/g/n WLAN Controller with USB 2.0 Interface
@@ -3981,8 +3981,8 @@ Version: 1.0+git164+41d57250+41d57257db-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 1b560d7c3451a364b1c39e9540639ea4
-SHA256sum: d391ddb97fe7f85a7fb9a60bcc9e2ccc9a673b6ca7b05fcb8a14d43e89e0ebd0
+MD5Sum: 9d4e9cb3758cf628b285646982e045f5
+SHA256sum: 13bac89873a561c4ea36b7405ed3c1580d49134f69961065e2b987c3a45220f0
 Size: 624
 Filename: enigma2-plugin-extensions-e2embyclient-dbg_1.0+git164+41d57250+41d57257db-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
@@ -3998,8 +3998,8 @@ Recommends: enigma2-plugin-extensions-e2embyclient (= 1.0+git164+41d57250+41d572
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: b7aa6b49e4c71f21d3a35f09333da356
-SHA256sum: c0cf3ac23de48f2f642512661e1faff2fd09cd210e00716c961e33d6f9eb095c
+MD5Sum: c57f0e6fe405d02f24b86348935175f8
+SHA256sum: 8701c95e4c89d4a1130550d2d5e4ebc6b50c077c3e1731ac09cacf286143b256
 Size: 696
 Filename: enigma2-plugin-extensions-e2embyclient-dev_1.0+git164+41d57250+41d57257db-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
@@ -4014,9 +4014,9 @@ Version: 1.0+git164+41d57250+41d57257db-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 276d39a8e2001e2919dd44a9cbda38dc
-SHA256sum: b01ea1b40c6d408fe7ca36e28a0acd8c54d6c5e0df18bf3484d9d150e95869b7
-Size: 71872
+MD5Sum: ee2d0f6261e378f56a4119ac6e46be34
+SHA256sum: 6fd250bd2ac1fe8f839cf1d5ac2f64f6395ad2626104c45dfbb603b99059096c
+Size: 71886
 Filename: enigma2-plugin-extensions-e2embyclient-src_1.0+git164+41d57250+41d57257db-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
 Description: enigma2-plugin-extensions-e2embyclient version 1.0+git-r0 - Source files
@@ -4031,9 +4031,9 @@ Depends: python3-core, python3-pillow, python3-requests, python3-yt-dlp
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 5d9cd2317cbe3f5e5370712429233da6
-SHA256sum: 4f6a4bcfd3fb0819f2fad901c1d6072019fa99b1d1ed6c6ebc91383e074b22e0
-Size: 284602
+MD5Sum: e8a6cc68d5c9b3d03bc40100f67c4f09
+SHA256sum: 615d094a33ff34a584ab7433276604243cd5c0eb0d5cb8d986264aeb56c08377
+Size: 284618
 Filename: enigma2-plugin-extensions-e2embyclient_1.0+git164+41d57250+41d57257db-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
 Description: enigma2-plugin-extensions-e2embyclient version 1.0+git-r0
@@ -4897,9 +4897,9 @@ Version: 1.1+git299+fcc60110+fcc6011ba7-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 7a6b91285265771f0c4fd0a3b6723f22
-SHA256sum: d9a90721d6b07cd0356698e01d11152dbdd853c47fa20f047ebefe73b4e84556
-Size: 624
+MD5Sum: 88d995702d00dfdf448df92a6be51da3
+SHA256sum: 6af755d42c559be64273773b07acb6302f4b9b8bbdd653e05541b921adb5e268
+Size: 622
 Filename: enigma2-plugin-skins-e2-darkos-dbg_1.1+git299+fcc60110+fcc6011ba7-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.1+git-r0 - Debugging files
@@ -4914,8 +4914,8 @@ Recommends: enigma2-plugin-skins-e2-darkos (= 1.1+git299+fcc60110+fcc6011ba7-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: c1152fbf3796024c7090c7bcf784df07
-SHA256sum: 10d82b07b3ca56ab2408332d9787756960de7b78ba79d67b5288e50df847019e
+MD5Sum: bc71629b2c76a0645fe689c6c5ff95b1
+SHA256sum: 25dab294b567f278fcf2073ea446aad5d54de9e4d0802edbcccbfcb6147ab18f
 Size: 658
 Filename: enigma2-plugin-skins-e2-darkos-dev_1.1+git299+fcc60110+fcc6011ba7-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
@@ -4931,9 +4931,9 @@ Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 305d3ec9783aa6c7d9f8769d43c6735e
-SHA256sum: 191668dd3770b74233cb5c47c64478c7f81f7042cbbfd52d241e212d0fc6a6a9
-Size: 3316326
+MD5Sum: 1b6c10b8c3379ac6b19c34cb67b71849
+SHA256sum: d3087efcc9e4167a85ec60e0695cf60ff184a02863d93089b95b4b9854bb13ea
+Size: 3316254
 Filename: enigma2-plugin-skins-e2-darkos_1.1+git299+fcc60110+fcc6011ba7-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.1+git-r0
@@ -5500,22 +5500,6 @@ Description: meta file for extra hardware drivers
 OE: extrahw-drivers-meta
 HomePage: https://www.openbh.net
 License: GPL-2.0-or-later
-Priority: optional
-
-Package: firmware-aic8800d80
-Version: 1.0+git165+b615b400+b615b403a2-r1
-Section: base
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: ccc8eba23987b0ea8ba8f149ba4b3a03
-SHA256sum: eb5c10b52df64fef6ebe41b139d2f8cc701f0be610e83839ecff81c0bf5ce2ed
-Size: 749596
-Filename: firmware-aic8800d80_1.0+git165+b615b400+b615b403a2-r1_all.ipk
-Source: firmware-aic8800d80.bb
-Description: Firmware files for AIC8800
-OE: firmware-aic8800d80
-HomePage: https://www.openbh.net
-License: LicenseRef-Proprietary
 Priority: optional
 
 Package: firmware-as102-data1-st
@@ -6672,23 +6656,6 @@ Description: ISO language, territory, currency, script codes and their translati
 OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-or-later
-Priority: optional
-
-Package: liberation-fonts
-Version: 1:2.1.5-r0
-Depends: fontconfig-utils
-Section: x11/fonts
-Architecture: all
-Maintainer: OpenBh
-MD5Sum: f2e9ce1cb401305141067a4a9d9163d6
-SHA256sum: b9b5b38c98760c120e7343703aa99248c186320e553cba86e6331b032a56f06d
-Size: 1927192
-Filename: liberation-fonts_2.1.5-r0_all.ipk
-Source: liberation-fonts_2.1.5.bb
-Description: Liberation(tm) Fonts
-OE: liberation-fonts
-HomePage: https://github.com/liberationfonts/liberation-fonts
-License: OFL-1.1
 Priority: optional
 
 Package: linux-firmware-8821cu-dbg
